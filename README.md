@@ -1,10 +1,6 @@
 # Hi, I'm Arly Trenck 👋
 
-Certified IT Systems Engineer with 5+ years managing multi-site infrastructure,
-automating operational processes, and running enterprise networks and security.
-Proficient in enterprise administration, modern security standards, and workflow
-automation, with a focus on building high-reliability environments and optimizing
-cross-functional operations across teams and partners.
+I build resilient systems and automate workflows at scale. With 5+ years in enterprise IT, I focus on infrastructure that doesn't break, security that actually works, and automation that saves time.
 
 Outside of work I'm a passionate homelabber — I run a self-hosted stack of
 containerized services on Docker, which keeps me hands-on with infrastructure,
