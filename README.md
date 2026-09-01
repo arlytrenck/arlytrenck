@@ -6,7 +6,8 @@ Outside of work I'm a passionate homelabber — I run a self-hosted stack of
 containerized services on Docker, which keeps me hands-on with infrastructure,
 networking, and automation.
 
-[![Arly's GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck)](https://github.com/stats-organization/github-stats-extended)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&hide_title=true&include_all_commits=true&theme=github_dark)](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&hide_title=true&include_all_commits=true&theme=github_dark)
+
 
 🌐 [trenck.net](https://trenck.net) &nbsp;·&nbsp;
 💼 [LinkedIn](https://www.linkedin.com/in/arlytrenck) &nbsp;·&nbsp;
