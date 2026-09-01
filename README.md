@@ -1,7 +1,5 @@
 # Hi, I'm Arly Trenck 👋
 
-### IT Systems Engineer & Infrastructure Architect · Fairfield, Connecticut
-
 Certified IT Systems Engineer with 5+ years managing multi-site infrastructure,
 automating operational processes, and running enterprise networks and security.
 Proficient in enterprise administration, modern security standards, and workflow
