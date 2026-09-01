@@ -7,6 +7,7 @@ containerized services on Docker, which keeps me hands-on with infrastructure,
 networking, and automation.
 
 [![Arly's GitHub stats](https://github-stats-extended.vercel.app/api?username=arlytrenck)](https://github.com/stats-organization/github-stats-extended)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arlytrenck&layout=compact&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
 🌐 [trenck.net](https://trenck.net) &nbsp;·&nbsp;
 💼 [LinkedIn](https://www.linkedin.com/in/arlytrenck) &nbsp;·&nbsp;
