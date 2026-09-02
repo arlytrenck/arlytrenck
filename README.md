@@ -1,30 +1,29 @@
 # Hi, I'm Arly Trenck 👋
 
-**IT Systems Engineer & Infrastructure Architect** in Fairfield, Connecticut —
-5+ years running multi-site infrastructure: servers and networks, identity and
-access, security and backup, and the automation that ties it together.
+I build resilient systems and automate the work around them. With 5+ years in
+enterprise IT, I care about infrastructure that doesn't break, security that
+actually works, and automation that saves people time — across servers,
+networks, identity, and backup for multi-site organizations.
 
-### What I work on
+Outside of work I'm a passionate homelabber, and it's where most of what's on
+this profile comes from. I run my homelab the way I run production: as code.
 
-- **Infrastructure** — Windows / Linux server administration, Proxmox VE, Azure, Synology
-- **Identity & zero trust** — Microsoft Entra ID, Okta SSO / SAML, Conditional Access, RBAC
-- **Network & security** — DNS / DHCP, IPsec / WireGuard / Tailscale, next-gen firewalls, Cloudflare, EDR / XDR
-- **Automation & IaC** — Ansible, Docker Compose, PowerShell & Bash, CI with GitHub Actions
+**The stack I keep my hands in:**
+- **Servers & virtualization** — Windows / Linux administration, Proxmox VE, Azure, Synology
+- **Identity & zero trust** — Entra ID, Okta SSO / SAML, Conditional Access, RBAC
+- **Network & security** — DNS / DHCP, WireGuard / Tailscale, next-gen firewalls, Cloudflare, EDR / XDR
+- **Automation & IaC** — Ansible, Docker Compose, PowerShell & Bash, GitHub Actions
 - **Observability & backup** — Prometheus / Grafana, Uptime Kuma, encrypted versioned backups
 
-### Homelab
-
-Most of what's here backs a self-hosted homelab I run as code — ~30 hardened
-Docker Compose stacks behind Caddy with automatic TLS, an Ansible bare-OS
-bootstrap, Tailscale, Proxmox, and scheduled redacted config snapshots. Public
-tooling: [`sysadmin-linux`](https://github.com/arlytrenck/sysadmin-linux) ·
+**What that looks like in the homelab:** ~30 hardened Docker Compose stacks
+behind Caddy with automatic TLS, a one-command Ansible rebuild of the whole
+host, Tailscale for remote access, Proxmox underneath, and nightly config snapshots 
+so nothing lives only in my head. The pieces I can share are
+in [`sysadmin-linux`](https://github.com/arlytrenck/sysadmin-linux) and
 [`sysadmin-windows`](https://github.com/arlytrenck/sysadmin-windows).
 
-### Certifications
-
-CompTIA A+ · Network+ · Security+ · Server+ &nbsp;|&nbsp; LPI Linux Essentials
-&nbsp;|&nbsp; ISC2 Certified in Cybersecurity &nbsp;|&nbsp; Microsoft MTA (×3)
-&nbsp;|&nbsp; Fortinet FCA
+**Certified:** CompTIA A+ · Network+ · Security+ · Server+ · LPI Linux
+Essentials · ISC2 CC · Microsoft MTA (×3) · Fortinet FCA
 
 [![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&hide_title=true&include_all_commits=true&theme=github_dark)](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&hide_title=true&include_all_commits=true&theme=github_dark)
 
