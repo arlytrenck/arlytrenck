@@ -3,7 +3,7 @@
 I build resilient systems and automate the work around them. With 5+ years in
 enterprise IT, I care about infrastructure that doesn't break, security that
 actually works, and automation that saves people time — across servers,
-networks, identity, and backup for multi-site organizations.
+networks, identity, and backup for multi-site infrastructure.
 
 Outside of work I'm a passionate homelabber, and I run it the way I run
 production: as code — hardened Docker Compose stacks behind Caddy, a one-command
