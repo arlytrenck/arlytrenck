@@ -18,7 +18,7 @@ Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · PowerShell &amp; Bash
 **Certified:** CompTIA A+ · Network+ · Security+ · Server+ · LPI Linux
 Essentials · ISC2 CC · Microsoft MTA (×3) · Fortinet FCA
 
-[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&hide_title=true&include_all_commits=true&theme=github_dark)](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&hide_title=true&include_all_commits=true&theme=github_dark)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&hide_title=true&include_all_commits=false&theme=github_dark)](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&hide_title=false&include_all_commits=true&theme=github_dark)
 
 🌐 [trenck.net](https://trenck.net) &nbsp;·&nbsp;
 💼 [LinkedIn](https://www.linkedin.com/in/arlytrenck) &nbsp;·&nbsp;
