@@ -15,8 +15,36 @@ pieces I can share are in
 **Tools:** Windows / Linux administration · Entra ID &amp; Okta SSO · WireGuard /
 Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · PowerShell &amp; Bash · Prometheus / Grafana
 
-**Certified:** CompTIA A+ · Network+ · Security+ · Server+ · LPI Linux
-Essentials · ISC2 CC · Microsoft MTA (×3) · Fortinet FCA
+## Certifications
+
+<table>
+<tr>
+<td align="center"><a href="https://www.credly.com/badges/c62cfb62-847b-4794-96c2-6ce6ebf41293" title="CompTIA A+ ce Certification"><img src="https://images.credly.com/size/110x110/images/f6d62c5d-1e1d-4de6-92ee-8dc8c80b1c7b/blob" width="80" alt="CompTIA A+ ce Certification"/><br/><sub><b>A+ ce</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/1f7ea311-0c34-4d04-8ae3-d52537a2b9a1" title="CompTIA Network+ ce Certification"><img src="https://images.credly.com/size/110x110/images/c70ba73e-3c8a-46fa-9d60-4a9af94ad662/blob" width="80" alt="CompTIA Network+ ce Certification"/><br/><sub><b>Network+ ce</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/75587b8c-296b-4657-a670-0b156d7b1335" title="CompTIA Security+ ce Certification"><img src="https://images.credly.com/size/110x110/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob" width="80" alt="CompTIA Security+ ce Certification"/><br/><sub><b>Security+ ce</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/80014155-511f-489c-b198-35a5a22f366a" title="CompTIA Server+ ce Certification"><img src="https://images.credly.com/size/110x110/images/07378420-4407-4f09-a4d7-9301d87dec34/blob" width="80" alt="CompTIA Server+ ce Certification"/><br/><sub><b>Server+ ce</b></sub></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://www.credly.com/badges/00631828-5110-4370-8d1b-544d2425c59b" title="CompTIA IT Operations Specialist – CIOS Stackable Certification"><img src="https://images.credly.com/size/110x110/images/7f7657b9-4d1b-4b8d-b5ee-5fdf6d7ccd71/04294_CompTIA_Cert_Badges_Specialist_-_CIOS.png" width="80" alt="CIOS Stackable Certification"/><br/><sub><b>CIOS Stackable</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/72a74eae-a918-4f69-90fd-9814e7e671a9" title="CompTIA Network Infrastructure Professional – CNIP Stackable Certification"><img src="https://images.credly.com/size/110x110/images/f308a5b0-18e3-4e93-ae15-9f27dd0a94cc/CompTIA_CNIP.png" width="80" alt="CNIP Stackable Certification"/><br/><sub><b>CNIP Stackable</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/576e2618-449b-426f-9234-99a578fb7599" title="CompTIA Secure Infrastructure Specialist – CSIS Stackable Certification"><img src="https://images.credly.com/size/110x110/images/8090280a-311f-425f-a1cd-a32770b5a444/CompTIA_CSIS.png" width="80" alt="CSIS Stackable Certification"/><br/><sub><b>CSIS Stackable</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/d01b6e9a-1b71-4d7e-82fb-d5eecdec7d8f" title="Certified in Cybersecurity (CC)"><img src="https://images.credly.com/size/110x110/images/2030e43f-8003-4d4b-9630-847add403c87/image.png" width="80" alt="ISC2 Certified in Cybersecurity"/><br/><sub><b>ISC2 CC</b></sub></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://www.credly.com/badges/e04da782-8b3a-44e8-b7dc-f1c76e431b45" title="LFC108: Cybersecurity Essentials"><img src="https://images.credly.com/size/110x110/images/e79f9317-b3f7-4b57-a859-f24d5f25fe36/blob" width="80" alt="LFC108: Cybersecurity Essentials"/><br/><sub><b>LFC108 Cybersecurity</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/6ca94e5c-0d70-4a44-bf87-1b6bf2603239" title="Druva SaaS Apps Foundations"><img src="https://images.credly.com/size/110x110/images/cc428fef-631a-4d6b-88a9-7bb784d30869/image.png" width="80" alt="Druva SaaS Apps Foundations"/><br/><sub><b>Druva SaaS Apps</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/ba71d534-21f3-49cc-9e00-3bf8d2de0060" title="Druva Cloud Platform Foundations"><img src="https://images.credly.com/size/110x110/images/58bef5dd-22cc-489d-b21c-b08ee3c2b044/image.png" width="80" alt="Druva Cloud Platform Foundations"/><br/><sub><b>Druva Cloud Platform</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/6e9f6735-8183-4ad6-9675-07a9b4dd35c8" title="Druva Hybrid Workloads Foundations"><img src="https://images.credly.com/size/110x110/images/13365bda-c6e5-4dcf-92b5-a5b1f68a8248/image.png" width="80" alt="Druva Hybrid Workloads Foundations"/><br/><sub><b>Druva Hybrid Workloads</b></sub></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://www.credly.com/badges/760bc602-5eee-45e6-a81b-640e6312c304" title="Fortinet Certified Associate Cybersecurity"><img src="https://images.credly.com/size/110x110/images/20082fc1-94af-4773-9df0-28856b566748/image.png" width="80" alt="Fortinet Certified Associate Cybersecurity"/><br/><sub><b>Fortinet FCA</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/c3594fcb-14b0-4203-9a4f-a3873e6c9d79" title="Fortinet FortiGate 7.4 Operator"><img src="https://images.credly.com/size/110x110/images/4b6db74c-f2da-4958-ad21-27288f2dd7f3/image.png" width="80" alt="Fortinet FortiGate 7.4 Operator"/><br/><sub><b>FortiGate 7.4 Operator</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/d3f5b71b-7b62-40fb-8516-ea47416ddfd7" title="Fortinet NSE 3 Certified in Cybersecurity"><img src="https://images.credly.com/size/110x110/images/7ca06297-1543-4ed2-b9fc-7f0af8635700/blob" width="80" alt="Fortinet NSE 3 Certified in Cybersecurity"/><br/><sub><b>Fortinet NSE 3</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/1342ed76-5215-4ffb-a063-465643214f75" title="Linux Essentials Certificate"><img src="https://images.credly.com/size/110x110/images/1d36cb36-20fc-4961-8d70-6307c015d1aa/blob" width="80" alt="LPI Linux Essentials Certificate"/><br/><sub><b>LPI Linux Essentials</b></sub></a></td>
+</tr>
+</table>
+
+All badges independently verifiable on [Credly](https://www.credly.com/users/arlington-trenck).
 
 [![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&hide_title=true&include_all_commits=false&theme=github_dark)](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&hide_title=false&include_all_commits=true&theme=github_dark)
 
