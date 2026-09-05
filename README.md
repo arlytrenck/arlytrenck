@@ -9,8 +9,10 @@ Outside of work I'm a passionate homelabber, and I run it the way I run
 production: as code — hardened Docker Compose stacks behind Caddy, a one-command
 Ansible host rebuild, Tailscale, Proxmox, and config snapshots in git. The
 pieces I can share are in
-[`sysadmin-linux`](https://github.com/arlytrenck/sysadmin-linux) and
-[`sysadmin-windows`](https://github.com/arlytrenck/sysadmin-windows).
+[`sysadmin-linux`](https://github.com/arlytrenck/sysadmin-linux),
+[`sysadmin-windows`](https://github.com/arlytrenck/sysadmin-windows), and a
+sanitized mirror of the homelab itself in
+[`homelab-public`](https://github.com/arlytrenck/homelab-public).
 
 **Tools:** Windows / Linux administration · Entra ID &amp; Okta SSO · WireGuard /
 Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · PowerShell &amp; Bash · Prometheus / Grafana
