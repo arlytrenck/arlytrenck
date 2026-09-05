@@ -1,0 +1,27 @@
+# Changelog
+
+Notable changes to this profile repo. Grouped by date, newest first.
+Format: [Keep a Changelog](https://keepachangelog.com/).
+
+## [Unreleased]
+- Resume PDF (`Arlington-Trenck-Resume-2026.pdf`) is now stale relative to the
+  source `.docx`/`.html` below and needs re-export once a machine with
+  Word/LibreOffice is available.
+
+## 2026-09-05
+- Corrected two figures in the résumé source that trenck.net's live-count
+  check caught today: office count 30+ → **29** (William Pitt Sotheby's
+  currently operates 29 offices, per williampitt.com/real-estate-offices/)
+  and added the current role's end-user count, **1,250+**, which the résumé
+  hadn't previously stated. Applied to the Summary and the IT Operations
+  Administrator bullet in
+  `/mnt/mercury/resources/sysadmin/career/resume/Arlington Trenck — Resume 2026.{docx,html}`.
+  The IT Support Specialist bullet's "33 office locations / 1,400+ end users"
+  is a historical figure for that role's 2022–2025 window and was left as-is.
+- Trimmed the résumé's Certifications section to the same 7 credentials as
+  this repo's badge grid and trenck.net/certifications: CompTIA A+/Network+/
+  Security+/Server+ (ce), ISC2 CC, Fortinet FCA, LPI Linux Essentials.
+  Dropped the CompTIA stackables (CSIS/CNIP/CIOS), FortiGate 7.4 Operator,
+  NSE 3, and LFC108 (Cybersecurity Essentials) — already absent from the
+  badge grid here and from trenck.net, so the résumé was the last place
+  still listing them.
