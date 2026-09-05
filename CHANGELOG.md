@@ -3,6 +3,14 @@
 Notable changes to this profile repo. Grouped by date, newest first.
 Format: [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-09-05 (latest)
+- Reconciled the IT Support Specialist bullet's "33 office locations" with
+  the "29 offices" figure used everywhere else in the résumé, and dropped
+  the "1,400+ end users" figure entirely rather than reconcile a second
+  unverified historical number — "200+ endpoints" stays. Same fix applied
+  to the résumé source `.docx`/`.html` on mercury and to `/resume/` on
+  trenck.net.
+
 ## 2026-09-05 (later)
 - Replaced `Arlington-Trenck-Resume-2026.pdf` with `Arlington-Trenck-Resume-2026.html`
   — the PDF had gone stale relative to the corrected résumé source below and
