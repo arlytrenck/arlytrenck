@@ -38,5 +38,5 @@ All badges independently verifiable on [Credly](https://www.credly.com/users/arl
 🌐 [trenck.net](https://trenck.net) &nbsp;·&nbsp;
 💼 [LinkedIn](https://www.linkedin.com/in/arlytrenck) &nbsp;·&nbsp;
 🏅 [Credly](https://www.credly.com/users/arlington-trenck) &nbsp;·&nbsp;
-📄 [Resume](./Arlington-Trenck-Resume-2026.pdf) &nbsp;·&nbsp;
+📄 [Resume](./Arlington-Trenck-Resume-2026.html) &nbsp;·&nbsp;
 ✉️ [arly@trenck.net](mailto:arly@trenck.net)

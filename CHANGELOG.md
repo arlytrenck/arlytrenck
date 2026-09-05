@@ -3,10 +3,14 @@
 Notable changes to this profile repo. Grouped by date, newest first.
 Format: [Keep a Changelog](https://keepachangelog.com/).
 
-## [Unreleased]
-- Resume PDF (`Arlington-Trenck-Resume-2026.pdf`) is now stale relative to the
-  source `.docx`/`.html` below and needs re-export once a machine with
-  Word/LibreOffice is available.
+## 2026-09-05 (later)
+- Replaced `Arlington-Trenck-Resume-2026.pdf` with `Arlington-Trenck-Resume-2026.html`
+  — the PDF had gone stale relative to the corrected résumé source below and
+  this VM has no LibreOffice/pandoc/node to re-export one, so the résumé is
+  now published as the up-to-date HTML directly instead. Same switch made on
+  trenck.net, whose footer "Résumé" link now points to `/resume/` (a live
+  HTML page) rather than a downloaded PDF. README's Resume link updated to
+  match.
 
 ## 2026-09-05
 - Corrected two figures in the résumé source that trenck.net's live-count
