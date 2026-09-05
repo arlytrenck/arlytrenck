@@ -15,7 +15,7 @@ sanitized mirror of the homelab itself in
 [`homelab-public`](https://github.com/arlytrenck/homelab-public).
 
 **Tools:** Windows / Linux administration · Entra ID &amp; Okta SSO · WireGuard /
-Tailscale · Cloudflare · EDR/XDR · Ansible · Docker &amp; VMware · Git · PowerShell &amp; Bash · Prometheus / Grafana
+Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMware · Git · PowerShell &amp; Bash · Prometheus / Grafana
 
 ## Certifications
 
