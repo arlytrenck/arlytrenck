@@ -35,7 +35,7 @@ Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMwa
 
 All badges independently verifiable on [Credly](https://www.credly.com/users/arlington-trenck).
 
-[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&hide_title=true&include_all_commits=false&theme=github_dark)](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&hide_title=false&include_all_commits=true&theme=github_dark)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&custom_title=GitHub%20Stats&show_icons=true&include_all_commits=true&theme=dark)](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&custom_title=GitHub%20Stats&show_icons=true&include_all_commits=true&theme=dark)
 
 🌐 [trenck.net](https://trenck.net) &nbsp;·&nbsp;
 💼 [LinkedIn](https://www.linkedin.com/in/arlytrenck) &nbsp;·&nbsp;
