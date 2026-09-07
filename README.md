@@ -19,11 +19,11 @@ Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMwa
 
 ## 🌱 Currently Learning
 
-- **Kubernetes orchestration** – Scaling containerized workloads in production
-- **Advanced network automation** – Beyond Ansible to event-driven infrastructure
-- **Zero-trust security architecture** – Implementing modern security models at scale
-- **Infrastructure-as-Code at enterprise scale** – Terraform, OpenTofu, and GitOps workflows
-- **Observability & SRE practices** – Deep dive into metrics, logs, and traces
+- **Kubernetes in the homelab** – Experimenting with K3s for container orchestration
+- **Advanced Proxmox clustering** – Multi-node HA and live migration workflows
+- **GitOps for homelab infrastructure** – Argocd and declarative config management
+- **Observability at scale** – Grafana Loki, Tempo, and distributed tracing
+- **Home network hardening** – Segmentation, zero-trust, and EDR/XDR in the lab
 
 ## Certifications
 
