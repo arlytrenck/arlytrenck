@@ -21,13 +21,13 @@ Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMwa
 
 <div align="center">
 
-[![CompTIA A+](https://trenck.net/img/certs/comptia-a-plus.png)](https://www.credly.com/badges/c62cfb62-847b-4794-96c2-6ce6ebf41293)
-[![CompTIA Network+](https://trenck.net/img/certs/comptia-network-plus.png)](https://www.credly.com/badges/1f7ea311-0c34-4d04-8ae3-d52537a2b9a1)
-[![CompTIA Security+](https://trenck.net/img/certs/comptia-security-plus.png)](https://www.credly.com/badges/75587b8c-296b-4657-a670-0b156d7b1335)
-[![CompTIA Server+](https://trenck.net/img/certs/comptia-server-plus.png)](https://www.credly.com/badges/80014155-511f-489c-b198-35a5a22f366a)
-[![LPI Linux Essentials](https://trenck.net/img/certs/lpi-linux-essentials.png)](https://www.credly.com/badges/1342ed76-5215-4ffb-a063-465643214f75)
-[![ISC² CC](https://trenck.net/img/certs/isc2-cc.png)](https://www.credly.com/badges/d01b6e9a-1b71-4d7e-82fb-d5eecdec7d8f)
-[![Fortinet FCA](https://trenck.net/img/certs/fortinet-fca.png)](https://www.credly.com/badges/760bc602-5eee-45e6-a81b-640e6312c304)
+[![CompTIA A+](https://trenck.net/img/certs/comptia-a-plus.png =60x60)](https://www.credly.com/badges/c62cfb62-847b-4794-96c2-6ce6ebf41293)
+[![CompTIA Network+](https://trenck.net/img/certs/comptia-network-plus.png =60x60)](https://www.credly.com/badges/1f7ea311-0c34-4d04-8ae3-d52537a2b9a1)
+[![CompTIA Security+](https://trenck.net/img/certs/comptia-security-plus.png =60x60)](https://www.credly.com/badges/75587b8c-296b-4657-a670-0b156d7b1335)
+[![CompTIA Server+](https://trenck.net/img/certs/comptia-server-plus.png =60x60)](https://www.credly.com/badges/80014155-511f-489c-b198-35a5a22f366a)
+[![LPI Linux Essentials](https://trenck.net/img/certs/lpi-linux-essentials.png =60x60)](https://www.credly.com/badges/1342ed76-5215-4ffb-a063-465643214f75)
+[![ISC² CC](https://trenck.net/img/certs/isc2-cc.png =60x60)](https://www.credly.com/badges/d01b6e9a-1b71-4d7e-82fb-d5eecdec7d8f)
+[![Fortinet FCA](https://trenck.net/img/certs/fortinet-fca.png =60x60)](https://www.credly.com/badges/760bc602-5eee-45e6-a81b-640e6312c304)
 
 [View on Credly](https://www.credly.com/users/arlington-trenck)
 
