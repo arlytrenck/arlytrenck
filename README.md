@@ -34,12 +34,6 @@ Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMwa
 
 <p align="center"><a href="https://www.credly.com/users/arlington-trenck">View all on Credly →</a></p>
 
-## ✍️ From the Blog
-
-I write field notes from running a real self-hosted homelab the way I'd run
-production — what broke, why it broke, and the fix that actually stuck. Read
-them at **[trenck.net/blog](https://trenck.net/blog/)**.
-
 [![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&custom_title=GitHub%20Stats&show_icons=true&include_all_commits=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 🌐 [trenck.net](https://trenck.net) &nbsp;·&nbsp;
