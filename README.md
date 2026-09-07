@@ -1,6 +1,6 @@
 ![Arly Trenck — IT Systems Engineer & Infrastructure Architect](./img/linkedin-banner.png)
 
-# Hi, I'm Arly Trenck 👋
+# Hi, I'm Arly Trenck
 
 I build resilient systems and automate the work around them. With 5+ years in
 enterprise IT, I care about infrastructure that doesn't break, security that
@@ -20,7 +20,7 @@ the build as I go on [my blog](https://trenck.net/blog/).
 **Tools:** Windows / Linux administration · Entra ID &amp; Okta SSO · WireGuard /
 Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMware · Git · PowerShell &amp; Bash · Prometheus / Grafana
 
-## 🏆 Certifications
+## Certifications
 
 <p align="center">
   <a href="https://www.credly.com/badges/c62cfb62-847b-4794-96c2-6ce6ebf41293"><img src="./img/certs/comptia-a-plus.png" alt="CompTIA A+" width="84" height="84" /></a>
@@ -36,9 +36,9 @@ Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMwa
 
 [![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&custom_title=GitHub%20Stats&show_icons=true&include_all_commits=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
-🌐 [trenck.net](https://trenck.net) &nbsp;·&nbsp;
-📝 [Blog](https://trenck.net/blog/) &nbsp;·&nbsp;
-💼 [LinkedIn](https://www.linkedin.com/in/arlytrenck) &nbsp;·&nbsp;
-🏅 [Credly](https://www.credly.com/users/arlington-trenck) &nbsp;·&nbsp;
-📄 [Resume](./resources/Arlington-Trenck-Resume-2026.html) &nbsp;·&nbsp;
-✉️ [arly@trenck.net](mailto:arly@trenck.net)
+[trenck.net](https://trenck.net) &nbsp;·&nbsp;
+[Blog](https://trenck.net/blog/) &nbsp;·&nbsp;
+[LinkedIn](https://www.linkedin.com/in/arlytrenck) &nbsp;·&nbsp;
+[Credly](https://www.credly.com/users/arlington-trenck) &nbsp;·&nbsp;
+[Resume](./resources/Arlington-Trenck-Resume-2026.html) &nbsp;·&nbsp;
+[arly@trenck.net](mailto:arly@trenck.net)
