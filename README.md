@@ -17,25 +17,33 @@ sanitized mirror of the homelab itself in
 **Tools:** Windows / Linux administration · Entra ID &amp; Okta SSO · WireGuard /
 Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMware · Git · PowerShell &amp; Bash · Prometheus / Grafana
 
+## 🌱 Currently Learning
+
+- **Kubernetes orchestration** – Scaling containerized workloads in production
+- **Advanced network automation** – Beyond Ansible to event-driven infrastructure
+- **Zero-trust security architecture** – Implementing modern security models at scale
+- **Infrastructure-as-Code at enterprise scale** – Terraform, OpenTofu, and GitOps workflows
+- **Observability & SRE practices** – Deep dive into metrics, logs, and traces
+
 ## Certifications
 
 <table>
 <tr>
-<td align="center"><a href="https://www.credly.com/badges/c62cfb62-847b-4794-96c2-6ce6ebf41293" title="CompTIA A+ ce Certification"><img src="https://images.credly.com/size/110x110/images/f6d62c5d-1e1d-4de6-92ee-8dc8c80b1c7b/blob" width="80" alt="CompTIA A+ ce Certification"/><br/><sub><b>A+ ce</b></sub></a></td>
-<td align="center"><a href="https://www.credly.com/badges/1f7ea311-0c34-4d04-8ae3-d52537a2b9a1" title="CompTIA Network+ ce Certification"><img src="https://images.credly.com/size/110x110/images/c70ba73e-3c8a-46fa-9d60-4a9af94ad662/blob" width="80" alt="CompTIA Network+ ce Certification"/><br/><sub><b>Network+ ce</b></sub></a></td>
-<td align="center"><a href="https://www.credly.com/badges/75587b8c-296b-4657-a670-0b156d7b1335" title="CompTIA Security+ ce Certification"><img src="https://images.credly.com/size/110x110/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob" width="80" alt="CompTIA Security+ ce Certification"/><br/><sub><b>Security+ ce</b></sub></a></td>
-<td align="center"><a href="https://www.credly.com/badges/80014155-511f-489c-b198-35a5a22f366a" title="CompTIA Server+ ce Certification"><img src="https://images.credly.com/size/110x110/images/07378420-4407-4f09-a4d7-9301d87dec34/blob" width="80" alt="CompTIA Server+ ce Certification"/><br/><sub><b>Server+ ce</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/c62cfb62-847b-4794-96c2-6ce6ebf41293" title="CompTIA A+ ce Certification"><img src="https://images.credly.com/size/110x110/images/f6d62c5d[...]
+<td align="center"><a href="https://www.credly.com/badges/1f7ea311-0c34-4d04-8ae3-d52537a2b9a1" title="CompTIA Network+ ce Certification"><img src="https://images.credly.com/size/110x110/images/c7[...]
+<td align="center"><a href="https://www.credly.com/badges/75587b8c-296b-4657-a670-0b156d7b1335" title="CompTIA Security+ ce Certification"><img src="https://images.credly.com/size/110x110/images/8[...]
+<td align="center"><a href="https://www.credly.com/badges/80014155-511f-489c-b198-35a5a22f366a" title="CompTIA Server+ ce Certification"><img src="https://images.credly.com/size/110x110/images/073[...]
 </tr>
 <tr>
-<td align="center"><a href="https://www.credly.com/badges/d01b6e9a-1b71-4d7e-82fb-d5eecdec7d8f" title="Certified in Cybersecurity (CC)"><img src="https://images.credly.com/size/110x110/images/2030e43f-8003-4d4b-9630-847add403c87/image.png" width="80" alt="ISC2 Certified in Cybersecurity"/><br/><sub><b>ISC2 CC</b></sub></a></td>
-<td align="center"><a href="https://www.credly.com/badges/760bc602-5eee-45e6-a81b-640e6312c304" title="Fortinet Certified Associate Cybersecurity"><img src="https://images.credly.com/size/110x110/images/20082fc1-94af-4773-9df0-28856b566748/image.png" width="80" alt="Fortinet Certified Associate Cybersecurity"/><br/><sub><b>Fortinet FCA</b></sub></a></td>
-<td align="center"><a href="https://www.credly.com/badges/1342ed76-5215-4ffb-a063-465643214f75" title="Linux Essentials Certificate"><img src="https://images.credly.com/size/110x110/images/1d36cb36-20fc-4961-8d70-6307c015d1aa/blob" width="80" alt="LPI Linux Essentials Certificate"/><br/><sub><b>LPI Linux Essentials</b></sub></a></td>
+<td align="center"><a href="https://www.credly.com/badges/d01b6e9a-1b71-4d7e-82fb-d5eecdec7d8f" title="Certified in Cybersecurity (CC)"><img src="https://images.credly.com/size/110x110/images/2030[...]
+<td align="center"><a href="https://www.credly.com/badges/760bc602-5eee-45e6-a81b-640e6312c304" title="Fortinet Certified Associate Cybersecurity"><img src="https://images.credly.com/size/110x110/[...]
+<td align="center"><a href="https://www.credly.com/badges/1342ed76-5215-4ffb-a063-465643214f75" title="Linux Essentials Certificate"><img src="https://images.credly.com/size/110x110/images/1d36cb3[...]
 </tr>
 </table>
 
 All badges independently verifiable on [Credly](https://www.credly.com/users/arlington-trenck).
 
-[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&custom_title=GitHub%20Stats&show_icons=true&include_all_commits=true&theme=dark)](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&custom_title=GitHub%20Stats&show_icons=true&include_all_commits=true&theme=dark)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&custom_title=GitHub%20Stats&show_icons=true&include_all_commits=true&theme=dark)](https://github-[...]
 
 🌐 [trenck.net](https://trenck.net) &nbsp;·&nbsp;
 💼 [LinkedIn](https://www.linkedin.com/in/arlytrenck) &nbsp;·&nbsp;
