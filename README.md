@@ -33,9 +33,22 @@ Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMwa
 
 <p align="center"><a href="https://www.credly.com/users/arlington-trenck">View all on Credly →</a></p>
 
+## ✍️ From the Blog
+
+Field notes from running a real self-hosted homelab the way I'd run production —
+what broke, why it broke, and the fix that actually stuck. Full archive at
+**[trenck.net/blog](https://trenck.net/blog/)**.
+
+- [Monitoring Without Alerting Is Just a Museum](https://trenck.net/blog/monitoring-without-alerting-is-a-museum/)
+- [Why My Own Services Couldn't Reach Themselves](https://trenck.net/blog/nat-hairpin-and-local-dns/)
+- [Why Image Updates Now Come as Pull Requests, Not Watchtower Pings](https://trenck.net/blog/watchtower-to-renovate/)
+- [The Cloudflare DNS Record That Wouldn't Propagate](https://trenck.net/blog/cloudflare-stuck-dns-publish-fix/)
+- [The Two-File Bug Behind Every New Authelia-Protected Vhost](https://trenck.net/blog/authelia-two-file-access-control-bug/)
+
 [![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&custom_title=GitHub%20Stats&show_icons=true&include_all_commits=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 🌐 [trenck.net](https://trenck.net) &nbsp;·&nbsp;
+📝 [Blog](https://trenck.net/blog/) &nbsp;·&nbsp;
 💼 [LinkedIn](https://www.linkedin.com/in/arlytrenck) &nbsp;·&nbsp;
 🏅 [Credly](https://www.credly.com/users/arlington-trenck) &nbsp;·&nbsp;
 📄 [Resume](./Arlington-Trenck-Resume-2026.html) &nbsp;·&nbsp;
