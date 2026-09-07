@@ -32,7 +32,7 @@ Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMwa
   <a href="https://www.credly.com/badges/760bc602-5eee-45e6-a81b-640e6312c304"><img src="./img/certs/fortinet-fca.png" alt="Fortinet Certified Associate" width="84" height="84" /></a>
 </p>
 
-<p align="center"><a href="https://www.credly.com/users/arlington-trenck">View all on Credly →</a></p>
+<p align="center"><a href="https://www.credly.com/users/arlington-trenck">View all on Credly</a></p>
 
 [![GitHub Stats](https://github-stats-extended.vercel.app/api?username=arlytrenck&rank_icon=github&custom_title=GitHub%20Stats&show_icons=true&include_all_commits=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
