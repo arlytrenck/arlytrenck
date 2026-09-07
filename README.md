@@ -14,7 +14,8 @@ pieces I can share are in
 [`sysadmin-linux`](https://github.com/arlytrenck/sysadmin-linux),
 [`sysadmin-windows`](https://github.com/arlytrenck/sysadmin-windows), and a
 sanitized mirror of the homelab itself in
-[`homelab-public`](https://github.com/arlytrenck/homelab-public).
+[`homelab-public`](https://github.com/arlytrenck/homelab-public). I also write up
+the build as I go on [my blog](https://trenck.net/blog/).
 
 **Tools:** Windows / Linux administration · Entra ID &amp; Okta SSO · WireGuard /
 Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMware · Git · PowerShell &amp; Bash · Prometheus / Grafana
