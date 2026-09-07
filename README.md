@@ -1,4 +1,4 @@
-![Arly Trenck — IT Systems Engineer & Infrastructure Architect](./linkedin-banner.png)
+![Arly Trenck — IT Systems Engineer & Infrastructure Architect](./img/linkedin-banner.png)
 
 # Hi, I'm Arly Trenck 👋
 
