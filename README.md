@@ -17,14 +17,6 @@ sanitized mirror of the homelab itself in
 **Tools:** Windows / Linux administration · Entra ID &amp; Okta SSO · WireGuard /
 Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMware · Git · PowerShell &amp; Bash · Prometheus / Grafana
 
-## 🌱 Currently Learning
-
-- **Kubernetes in the homelab** – Experimenting with K3s for container orchestration
-- **Advanced Proxmox clustering** – Multi-node HA and live migration workflows
-- **GitOps for homelab infrastructure** – Argocd and declarative config management
-- **Observability at scale** – Grafana Loki, Tempo, and distributed tracing
-- **Home network hardening** – Segmentation, zero-trust, and EDR/XDR in the lab
-
 ## Certifications
 
 <table>
