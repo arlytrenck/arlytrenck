@@ -1,3 +1,5 @@
+![Arly Trenck — IT Systems Engineer & Infrastructure Architect](./linkedin-banner.png)
+
 # Hi, I'm Arly Trenck 👋
 
 I build resilient systems and automate the work around them. With 5+ years in
