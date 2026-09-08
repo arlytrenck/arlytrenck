@@ -3,78 +3,86 @@
 <head>
 <meta charset="utf-8">
 <title>Arlington Trenck — Resume 2026</title>
-<style>
-  :root { --navy:#1F3864; --ink:#1a1a1a; --muted:#555; --rule:#c9c9c9; }
-  * { box-sizing: border-box; }
-  html,body { margin:0; padding:0; }
-  body {
-    font-family: "Calibri", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-    color: var(--ink); font-size: 10.5pt; line-height: 1.34;
-    background: #f2f2f2;
-  }
-  .page {
-    width: 8.5in; min-height: 11in; margin: 24px auto; padding: 0.6in 0.7in;
-    background: #fff; box-shadow: 0 1px 6px rgba(0,0,0,.18);
-  }
-  h1 { text-align:center; color:var(--navy); font-size:22pt; letter-spacing:1px; margin:0 0 3px; }
-  .tagline { text-align:center; color:var(--muted); font-size:10.5pt; margin:0 0 3px; }
-  .contact { text-align:center; color:var(--muted); font-size:8.5pt; margin:0 0 4px;
-             padding-bottom:8px; border-bottom:1px solid var(--rule); }
-  h2 { color:var(--navy); font-size:11pt; text-transform:uppercase; letter-spacing:.6px;
-       margin:16px 0 5px; padding-bottom:2px; border-bottom:1px solid #4a4a4a; }
-  p { margin:0 0 5px; }
-  .summary { margin-top:3px; }
-  .skills p { margin:0 0 3px; }
-  .skills b { color:var(--ink); }
-  .certs p { margin:0 0 4px; }
-  .certs .certnote { margin:0 0 7px; color:var(--muted); font-size:9pt; }
-  .certs b { color:var(--ink); }
-  .job-head { margin:10px 0 1px; }
-  .job-head .co { font-weight:bold; font-size:11pt; }
-  .job-head .meta { color:var(--muted); font-size:9pt; }
-  .role { font-weight:bold; margin:5px 0 2px; }
-  .role .dates { font-weight:normal; color:var(--muted); font-size:9pt; }
-  ul { margin:2px 0 6px; padding-left:18px; }
-  li { margin:0 0 2px; }
-  .proj-title { font-weight:bold; margin:7px 0 1px; }
-  .proj-title .dates { font-weight:normal; color:var(--muted); font-size:9pt; }
-  .proj-title + p { margin:0 0 4px; }
-  @media print {
-    body { background:#fff; font-size:10.5pt; }
-    .page { width:auto; min-height:0; margin:0; padding:0; box-shadow:none; }
-    @page { size: Letter; margin: 0.55in 0.7in; }
-    h2 { page-break-after: avoid; }
-    .job-head, .role, .proj-title { page-break-after: avoid; }
-    li, p { page-break-inside: avoid; }
-  }
-</style>
+    <style>
+      :root { --navy:#1F3864; --ink:#1a1a1a; --muted:#555; --rule:#c9c9c9; }
+      * { box-sizing: border-box; }
+      html,body { margin:0; padding:0; }
+      body {
+        font-family: "Calibri", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        color: var(--ink); font-size: 10.5pt; line-height: 1.34;
+        background: #f2f2f2;
+      }
+      .back-link { display:block; max-width:8.5in; margin:16px auto 0; padding:0 0.2in; font-size:9pt; }
+      .back-link a { color: var(--navy); text-decoration:none; }
+      .back-link a:hover { text-decoration:underline; }
+      .page {
+        width: 8.5in; min-height: 11in; margin: 12px auto 24px; padding: 0.6in 0.7in;
+        background: #fff; box-shadow: 0 1px 6px rgba(0,0,0,.18);
+      }
+      h1 { text-align:center; color:var(--navy); font-size:16pt; letter-spacing:1px; margin:0 0 3px; }
+      .tagline { text-align:center; color:var(--muted); font-size:10.5pt; margin:0 0 3px; }
+      .contact { text-align:center; color:var(--muted); font-size:9.5pt; margin:0 0 4px;
+                 padding-bottom:8px; border-bottom:1px solid var(--rule); }
+      .contact a { color:inherit; text-decoration:none; }
+      h2 { color:var(--navy); font-size:11.5pt; text-transform:uppercase; letter-spacing:.6px;
+           margin:12px 0 4px; padding-bottom:2px; border-bottom:1px solid #4a4a4a; }
+      p { margin:0 0 5px; }
+      .summary { margin-top:3px; }
+      .skills p { margin:0 0 3px; }
+      .skills b { color:var(--ink); }
+      .certs p { margin:0 0 4px; }
+      .certs .certnote { margin:0 0 7px; color:var(--muted); font-size:9pt; }
+      .certs b { color:var(--ink); }
+      .job-head { margin:9px 0 0; }
+      .job-head .co { font-weight:bold; font-size:11pt; }
+      .job-head .meta { color:var(--muted); font-size:9pt; }
+      .job-head .domain { display:block; color:var(--muted); font-size:9pt; font-style:italic; margin-top:1px; }
+      .role { font-weight:bold; margin:5px 0 2px; }
+      .role .dates { font-weight:normal; color:var(--muted); font-size:9pt; }
+      ul { margin:2px 0 3px; padding-left:18px; }
+      li { margin:0 0 2px; }
+      .techline { font-size:9.5pt; font-style:italic; color:#505050; margin:1px 0 4px; }
+      .techline b { font-style:italic; color:#505050; }
+      .subhead { font-weight:bold; font-size:10pt; margin:6px 0 1px; }
+      .proj-title { font-weight:bold; margin:7px 0 1px; }
+      .proj-title .dates { font-weight:normal; color:var(--muted); font-size:9pt; }
+      .proj-title .repo { font-weight:normal; color:var(--muted); font-size:9pt; }
+      .proj-title + p { margin:0 0 4px; }
+      @media print {
+        .back-link { display:none; }
+        body { background:#fff; font-size:10.5pt; }
+        .page { width:auto; min-height:0; margin:0; padding:0; box-shadow:none; }
+        @page { size: Letter; margin: 0.6in 0.7in; }
+        h2 { page-break-after: avoid; }
+        .job-head, .role, .proj-title, .subhead { page-break-after: avoid; }
+        li, p { page-break-inside: avoid; }
+      }
+    </style>
 </head>
 <body>
 <div class="page">
 
   <h1>ARLINGTON TRENCK</h1>
   <p class="tagline">Certified IT Systems Engineer &nbsp;|&nbsp; Multi-Site Infrastructure, Security &amp; Automation</p>
-  <p class="contact">(203) 822-3883 &nbsp;|&nbsp; arly@trenck.net &nbsp;|&nbsp; Fairfield, Connecticut<br>trenck.net &nbsp;|&nbsp; linkedin.com/in/arlytrenck &nbsp;|&nbsp; github.com/arlytrenck &nbsp;|&nbsp; credly.com/users/arlington-trenck</p>
+  <p class="contact">(203) 822-3883 &nbsp;|&nbsp; <a href="mailto:arly@trenck.net">arly@trenck.net</a> &nbsp;|&nbsp; Fairfield, Connecticut<br><a href="https://trenck.net/">trenck.net</a> &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/arlytrenck">linkedin.com/in/arlytrenck</a> &nbsp;|&nbsp; <a href="https://github.com/arlytrenck">github.com/arlytrenck</a> &nbsp;|&nbsp; <a href="https://www.credly.com/users/arlington-trenck">credly.com/users/arlington-trenck</a></p>
 
   <h2>Summary</h2>
-  <p class="summary">Certified IT professional with 5+ years running multi-site infrastructure, security, and operations for a 29-office enterprise. I build systems that hold up and automate the work around them — infrastructure that doesn&rsquo;t break and automation that gives people their time back. Experience spans systems administration, networking, identity, endpoint management, vendor and MSP management, and disaster recovery across Windows, Linux, and cloud platforms.</p>
+  <p class="summary">Certified IT systems engineer with 5+ years owning multi-site infrastructure, security, and identity for a 29-office, 1,250-user real-estate brokerage across CT, NY, and MA. Builds infrastructure that stays up and automates the work around it, with depth in Windows and Linux administration, Entra ID and Okta SSO, network and edge security, MSP management, and disaster recovery with tested restores.</p>
 
   <h2>Technical Skills</h2>
   <div class="skills">
-    <p><b>Systems &amp; Infrastructure:</b> Windows 10/11, Windows Server, Active Directory, Group Policy, Linux / Ubuntu Server, Docker, Proxmox VE, VMware, Synology DSM 6/7, DNS, DHCP</p>
-    <p><b>Cloud &amp; Identity:</b> Microsoft 365 / Azure, Entra ID, Okta SSO, Google Workspace</p>
-    <p><b>Networking &amp; Security:</b> SonicWall firewalls (SonicOS), RUCKUS One / ZoneDirector, Cisco, VLANs &amp; subnetting, VPN, IPS/IDS, Cisco Umbrella, structured cabling</p>
-    <p><b>Automation &amp; Tooling:</b> PowerShell, Ansible, Bash, Git, FreshService, ConnectWise Automate / Manage / Control, AUVIK, Liongard, Prometheus / Grafana</p>
-    <p><b>Backup &amp; Continuity:</b> Druva, Datto, restic, Spanning Backup, disaster-recovery planning and restore testing</p>
+    <p><b>Systems &amp; Virtualization:</b> Windows Server 2019 / 2022, Windows 10 / 11, macOS, Ubuntu Server LTS, Active Directory, Group Policy, DNS, DHCP, Proxmox VE, VMware, Docker, Synology DSM</p>
+    <p><b>Cloud &amp; Identity:</b> Microsoft 365, Azure, Entra ID, Conditional Access and MFA, Okta Workforce Identity, SAML SSO, Google Workspace, RBAC and least privilege</p>
+    <p><b>Network &amp; Security:</b> SonicWall next-generation firewalls (SonicOS), RUCKUS One and ZoneDirector, VLANs and subnetting, IPsec and WireGuard VPN, IPS / IDS, Cisco Umbrella, SentinelOne EDR / XDR, structured cabling</p>
+    <p><b>Automation &amp; Management:</b> PowerShell, Bash, Ansible, Git, NinjaOne RMM, ConnectWise Automate / Control, Freshservice ITSM, Auvik, Liongard, Prometheus, Grafana</p>
+    <p><b>Backup &amp; Continuity:</b> Datto BDR, Druva, Spanning Backup, restic, disaster-recovery planning and restore testing</p>
   </div>
 
   <h2>Certifications</h2>
   <div class="certs">
     <p class="certnote"><em>Verified on Credly. CompTIA credentials are CE-renewed and current through 2027.</em></p>
     <p><b>CompTIA</b> &mdash; A+ ce &middot; Network+ ce &middot; Security+ ce &middot; Server+ ce</p>
-    <p><b>ISC2</b> &mdash; Certified in Cybersecurity (CC)</p>
-    <p><b>Fortinet</b> &mdash; Certified Associate in Cybersecurity (FCA)</p>
-    <p><b>LPI</b> &mdash; Linux Essentials</p>
+    <p><b>ISC2</b> &mdash; Certified in Cybersecurity (CC) &nbsp;&middot;&nbsp; <b>Fortinet</b> &mdash; Certified Associate in Cybersecurity (FCA) &nbsp;&middot;&nbsp; <b>LPI</b> &mdash; Linux Essentials</p>
   </div>
 
   <h2>Professional Experience</h2>
@@ -82,55 +90,64 @@
   <div class="job-head">
     <span class="co">William Pitt Sotheby&rsquo;s International Realty</span>
     <span class="meta">&nbsp;&nbsp;&nbsp;Stamford, CT&nbsp;&nbsp;|&nbsp;&nbsp;Jan 2022 &ndash; Present</span>
+    <span class="domain">Residential real-estate brokerage &mdash; 29 offices across CT, NY, and MA; 1,250+ users</span>
   </div>
 
   <p class="role">IT Operations Administrator <span class="dates">(May 2025 &ndash; Present)</span></p>
   <ul>
-    <li>Lead IT infrastructure projects end to end for 29 offices across CT, NY, and MA, supporting 1,250+ end users.</li>
-    <li>Own the health, security, and performance of server, network, and identity infrastructure, held to documented compliance standards.</li>
-    <li>Manage MSP, BPO, and third-party vendor relationships to keep operations and service quality consistent across sites.</li>
-    <li>Oversee application and system integrations so access and data flow cleanly across Active Directory, Okta, Google Workspace, and third-party platforms.</li>
-    <li>Automate recurring operations work &mdash; account provisioning / deprovisioning, monitoring, and reporting &mdash; with PowerShell.</li>
+    <li>Own the availability, security, and performance of server, network, and identity infrastructure for 29 offices and 1,250+ users, held to documented compliance standards</li>
+    <li>Lead infrastructure projects end to end &mdash; scoping, vendor coordination, scheduling, and cutover &mdash; across wireless, firewall, and phone-system replacements</li>
+    <li>Administer identity and access across Active Directory, Entra ID, Okta, and Google Workspace, including SAML integrations, conditional access, and MFA policy</li>
+    <li>Automate account lifecycle, monitoring, and operational reporting in PowerShell, removing recurring manual work from the team&rsquo;s week</li>
+    <li>Manage MSP, BPO, and third-party vendor relationships, holding service quality consistent across all 29 sites</li>
+    <li>Maintain backup and disaster-recovery coverage on Datto and Druva, with restores tested on a fixed schedule</li>
   </ul>
+  <p class="techline"><b>Technologies:</b> Windows Server, Active Directory, Entra ID, Okta, Google Workspace, SonicWall, RUCKUS One, PowerShell, NinjaOne, Freshservice, Datto, Druva</p>
 
   <p class="role">IT Support Specialist <span class="dates">(Jan 2022 &ndash; May 2025)</span></p>
   <ul>
-    <li>Managed server, security, and network infrastructure for 29 offices across CT, NY, and MA; provided escalated support for 200+ endpoints.</li>
-    <li>Built tools and scripts to automate recurring system processes; staged and provisioned network equipment for new-site deployments.</li>
-    <li>Deployed and configured operating systems, application software, and system-management tooling; administered accounts, permissions, and access across multiple systems.</li>
-    <li>Worked with executives on technology strategy, network infrastructure changes, and hardware procurement.</li>
+    <li>Managed server, network, and security infrastructure across 29 offices; escalated support for 200+ endpoints</li>
+    <li>Built PowerShell and Bash tooling to automate recurring system administration, account, and asset-reporting tasks</li>
+    <li>Staged and deployed firewalls, switches, and access points for new-office builds, and standardized OS, application, and RMM agent rollout across the endpoint fleet</li>
+    <li>Administered accounts, permissions, and least-privilege access across Active Directory, Google Workspace, and Okta-integrated applications</li>
+    <li>Advised executives on technology strategy, network infrastructure changes, and hardware procurement</li>
+  </ul>
+  <p class="techline"><b>Technologies:</b> Windows Server, Active Directory, Group Policy, Okta, Google Workspace, SonicOS, RUCKUS ZoneDirector, Cisco Umbrella, PowerShell, Bash, ConnectWise Automate, Auvik</p>
+
+  <p class="subhead">Selected Projects</p>
+  <ul>
+    <li><b>RUCKUS One cloud migration (2023 &ndash; 2024)</b> &mdash; Migrated 52 access points across 31 offices from on-premises ZoneDirector to cloud-managed RUCKUS One, replacing end-of-life hardware and centralizing wireless management</li>
+    <li><b>Multi-site firewall refresh (2024 &ndash; 2025)</b> &mdash; Replaced end-of-life SonicWall firewalls across multiple sites, coordinating vendor and internal scheduling to cut over with minimal downtime</li>
+    <li><b>Onboarding and offboarding automation (2023)</b> &mdash; Automated provisioning and deprovisioning across Active Directory, Google Workspace, and Okta applications in PowerShell, cutting a 1-hour manual process to 30 minutes</li>
+    <li><b>Active Directory to Okta attribute integration (2023)</b> &mdash; Designed custom Active Directory attributes mapped into Okta to drive tailored application authentication values for ~1,200 users</li>
+    <li><b>SimpleVOIP phone-system migration (2023)</b> &mdash; Moved 30+ offices from Altigen to SimpleVOIP, documenting device and network requirements and supporting the cutover</li>
   </ul>
 
   <div class="job-head">
     <span class="co">Parker Ear, Nose &amp; Throat</span>
     <span class="meta">&nbsp;&nbsp;&nbsp;Norwalk, CT&nbsp;&nbsp;|&nbsp;&nbsp;Apr 2021 &ndash; Jan 2022</span>
+    <span class="domain">Specialist ENT medical practice</span>
   </div>
   <p class="role">IT Consultant (Freelance)</p>
   <ul>
-    <li>Managed and maintained the practice's network infrastructure.</li>
-    <li>Identified and resolved network issues to minimize downtime.</li>
-    <li>Kept systems current with regular updates and upgrades.</li>
+    <li>Managed the network infrastructure supporting the practice&rsquo;s clinical and administrative systems</li>
+    <li>Diagnosed and resolved network faults to minimize downtime during operating hours</li>
+    <li>Kept servers, workstations, and network equipment current on updates, patches, and hardware upgrades</li>
   </ul>
 
-  <h2>Key Projects</h2>
-  <p class="proj-title">RUCKUS One cloud migration <span class="dates">(2023&ndash;2024)</span></p>
-  <p>Led migration of 31 offices and 52 access points from an on-premises RUCKUS ZoneDirector to the cloud-based RUCKUS One platform, modernizing equipment and centralizing wireless management.</p>
-  <p class="proj-title">Multi-site firewall refresh <span class="dates">(2024&ndash;2025)</span></p>
-  <p>Replaced end-of-life SonicWall firewalls across multiple locations; coordinated vendor and internal scheduling to cut over with minimal downtime and a stronger security posture.</p>
-  <p class="proj-title">SimpleVOIP phone-system migration <span class="dates">(2023)</span></p>
-  <p>Transitioned 30+ offices from Altigen to SimpleVOIP, documenting device and network requirements and supporting the cutover.</p>
-  <p class="proj-title">Onboarding / offboarding automation <span class="dates">(2023)</span></p>
-  <p>Automated user provisioning and deprovisioning across Active Directory, Google Workspace, and Okta-integrated applications with PowerShell, cutting a one-hour manual process in half.</p>
-  <p class="proj-title">Active Directory &ndash; Okta integration for application launch <span class="dates">(2023)</span></p>
-  <p>Designed custom Active Directory attributes mapped to Okta to drive tailored authentication values for ~1,200 users.</p>
-
-  <h2>Technical Projects</h2>
-  <p class="proj-title">Self-Hosted Homelab &amp; Infrastructure-as-Code <span class="dates">(2021 &ndash; Present)</span></p>
-  <p>A production-style homelab run as code. ~35 containerized services sit in purpose-split Docker Compose stacks behind a Caddy reverse proxy with automatic TLS and Authelia single sign-on. Prometheus and Grafana cover monitoring, with alerting and automated container self-healing; encrypted restic backups are restore-drilled monthly. The whole host layer rebuilds from a single Ansible command (Proxmox, VM, and NAS roles, secrets in Ansible Vault), with Tailscale for remote access, configuration snapshots in Git, and a living runbook and disaster-recovery procedures alongside them. Eleven n8n workflows chain the stack&rsquo;s own APIs to run the operational routine: nightly backup orchestration, certificate and pending-update reporting, host and DNS health checks, repo and CI monitoring, and a weekly health digest. The Compose stacks, hardening conventions, and alerting pipeline are published as a sanitized public repository on GitHub.</p>
+  <h2>Projects</h2>
+  <p class="proj-title">Self-Hosted Homelab &amp; Infrastructure-as-Code <span class="dates">(2021 &ndash; Present)</span> <span class="repo">&mdash; github.com/arlytrenck/homelab-public</span></p>
+  <p>A production-style homelab run as code; stacks and hardening conventions published as a sanitized public repository.</p>
+  <ul>
+    <li>Runs ~35 containerized services in purpose-split Docker Compose stacks behind a Caddy reverse proxy with automatic TLS and Authelia single sign-on</li>
+    <li>Rebuilds the entire host layer from a single Ansible command (Proxmox, VM, and NAS roles; secrets in Ansible Vault), with Tailscale remote access and config snapshots in Git</li>
+    <li>Monitors the stack with Prometheus and Grafana, including alerting and automated container self-healing; encrypted restic backups are restore-drilled monthly</li>
+    <li>Automates the operational routine with 11 n8n workflows chaining the stack&rsquo;s own APIs &mdash; nightly backup orchestration, certificate and update reporting, host and DNS health checks, and a weekly health digest</li>
+  </ul>
 
   <h2>Education</h2>
-  <p class="proj-title">MyComputerCareer &ndash; Information Technology Systems Administration Program <span class="dates">(2021)</span></p>
-  <p>Earned World Class IT Professional (WCITP) classification and an Academic Achievement certificate (97%+ GPA); passed 8 certification exams before graduation.</p>
+  <p class="proj-title">MyComputerCareer &mdash; IT Systems Administration Program <span class="dates">(2021)</span></p>
+  <p>World Class IT Professional (WCITP) classification; Academic Achievement certificate (97%+ GPA); 8 certification exams passed before graduation.</p>
 
 </div>
 </body>
