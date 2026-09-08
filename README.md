@@ -2,15 +2,15 @@
 
 # Hi, I'm Arly Trenck 👋
 
-I build resilient systems and automate the work around them. With 5+ years in
-enterprise IT, I care about infrastructure that doesn't break, security that
-actually works, and automation that saves people time — across servers,
-networks, identity, and backup for multi-site infrastructure.
+I build systems that hold up and automate the work around them. With 5+ years in
+enterprise IT, what I care about is infrastructure that doesn't break and
+automation that gives people their time back — across servers, networks,
+identity, security, and backup for multi-site environments.
 
-Outside of work I'm a passionate homelabber, and I run it the way I run
-production: as code — hardened Docker Compose stacks behind Caddy, a one-command
-Ansible host rebuild, Tailscale, Proxmox, and config snapshots in git. The
-pieces I can share are in
+Outside of work I run a homelab, and I run it the way I run production: as
+code — hardened Docker Compose stacks behind Caddy, a one-command Ansible host
+rebuild, Tailscale, Proxmox, and config snapshots in git. The pieces I can
+share are in
 [`sysadmin-linux`](https://github.com/arlytrenck/sysadmin-linux),
 [`sysadmin-windows`](https://github.com/arlytrenck/sysadmin-windows), and a
 sanitized mirror of the homelab itself in
