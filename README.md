@@ -40,5 +40,5 @@ Tailscale · Cloudflare · EDR/XDR · Ansible · Docker · Proxmox VE &amp; VMwa
 📝 [Blog](https://trenck.net/blog/) &nbsp;·&nbsp;
 💼 [LinkedIn](https://www.linkedin.com/in/arlytrenck) &nbsp;·&nbsp;
 🏅 [Credly](https://www.credly.com/users/arlington-trenck) &nbsp;·&nbsp;
-📄 [Resume](./resources/Arlington-Trenck-Resume-2026.html) &nbsp;·&nbsp;
+📄 [Resume](https://trenck.net/resume/) &nbsp;·&nbsp;
 ✉️ [arly@trenck.net](mailto:arly@trenck.net)
