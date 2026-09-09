@@ -51,7 +51,10 @@
   .skills p{margin:0 0 .3rem;}
   .skills b{color:var(--navy); font-weight:600;}
 
-  .certs .certnote{margin:0 0 .5rem; color:var(--muted); font-size:8.5pt; font-style:italic;}
+  .certs .certnote{margin:0 0 .55rem; color:var(--muted); font-size:8.5pt; font-style:italic;}
+  .certs .cert-grid{display:grid; grid-template-columns:5.25rem 1fr; row-gap:.3rem; column-gap:.5rem;}
+  .certs .cert-iss{color:var(--navy); font-weight:600;}
+  .certs .cert-cred{color:var(--body);}
   .certs p{margin:0 0 .32rem;}
   .certs b{color:var(--navy); font-weight:600;}
 
@@ -114,8 +117,12 @@
   <h2>Certifications</h2>
   <div class="certs">
     <p class="certnote"><em>Verified on Credly. CompTIA credentials are CE-renewed and current through 2027.</em></p>
-    <p><b>CompTIA</b> &mdash; A+ ce &middot; Network+ ce &middot; Security+ ce &middot; Server+ ce</p>
-    <p><b>ISC2</b> &mdash; Certified in Cybersecurity (CC) &nbsp;&middot;&nbsp; <b>Fortinet</b> &mdash; Certified Associate in Cybersecurity (FCA) &nbsp;&middot;&nbsp; <b>LPI</b> &mdash; Linux Essentials</p>
+    <div class="cert-grid">
+      <span class="cert-iss">CompTIA</span><span class="cert-cred">A+ ce &middot; Network+ ce &middot; Security+ ce &middot; Server+ ce</span>
+      <span class="cert-iss">ISC2</span><span class="cert-cred">Certified in Cybersecurity (CC)</span>
+      <span class="cert-iss">Fortinet</span><span class="cert-cred">Certified Associate in Cybersecurity (FCA)</span>
+      <span class="cert-iss">LPI</span><span class="cert-cred">Linux Essentials</span>
+    </div>
   </div>
 
   <h2>Professional Experience</h2>
