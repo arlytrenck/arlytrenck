@@ -1,102 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arly Trenck — Resume 2026</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600&display=swap">
-<style>
-  :root{
-    --paper:#efece1; --sheet:#faf8f2; --navy:#002349; --navy-2:#0a305c;
-    --ink:#1a1d24; --body:#23272e; --muted:#6f6a5b; --line:#dad5c7;
-  }
-  *{box-sizing:border-box;}
-  html,body{margin:0;padding:0;}
-  body{
-    font-family:"Libre Franklin","Franklin Gothic","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    color:var(--body); background:var(--paper);
-    font-size:10.4pt; line-height:1.42;
-    -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
-  }
-  .back-link{max-width:8.5in; margin:22px auto 0; padding:0 .25in;
-    font-size:.7rem; font-weight:600; letter-spacing:.16em; text-transform:uppercase;}
-  .back-link a{color:var(--muted); text-decoration:none;}
-  .back-link a:hover{color:var(--navy);}
-  .updated{max-width:8.5in; margin:6px auto 30px; padding:0 .25in;
-    font-size:.68rem; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--muted);}
-  .page{
-    width:8.5in; min-height:11in; margin:14px auto 34px; padding:.62in .7in .74in;
-    background:var(--sheet);
-    box-shadow:0 1px 2px rgba(26,29,36,.05), 0 16px 40px -16px rgba(26,29,36,.22);
-  }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  .masthead{margin:0;}
-  h1{color:var(--ink); font-weight:300; font-size:26pt; letter-spacing:-.018em;
-     line-height:1.04; margin:0;}
-  .tagline{margin:.55rem 0 0; color:var(--navy);
-    font-size:.7rem; font-weight:600; letter-spacing:.2em; text-transform:uppercase;}
-  .contact{margin:.8rem 0 0; padding:.75rem 0 0; border-top:1px solid var(--line);
-    color:var(--muted); font-size:8.5pt; letter-spacing:.012em;}
-  .contact a{color:inherit; text-decoration:none;}
-  .contact a:hover{color:var(--navy);}
+    <!-- SEO -->
+    <title>Résumé · Arly Trenck</title>
+    <meta name="description" content="Arly Trenck's résumé. Certified IT Systems Engineer with 5+ years running multi-site infrastructure, security, and automation.">
+    <meta name="author" content="Arly Trenck">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="canonical" href="https://trenck.net/resume/">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+    <meta name="theme-color" content="#002349">
+    <meta name="color-scheme" content="light">
 
-  h2{color:var(--navy); font-size:.76rem; font-weight:600;
-     letter-spacing:.19em; text-transform:uppercase;
-     margin:1.5rem 0 0; padding:0 0 .4rem; border-bottom:1px solid var(--line);}
-  h2 + *{margin-top:.55rem;}
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Résumé · Arly Trenck">
+    <meta property="og:description" content="Arly Trenck's résumé. Certified IT Systems Engineer with 5+ years running multi-site infrastructure, security, and automation.">
+    <meta property="og:url" content="https://trenck.net/resume/">
+    <meta property="og:image" content="https://trenck.net/og-card.jpg">
+    <meta property="og:site_name" content="Arly Trenck">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Arly Trenck, IT Systems Engineer &amp; Infrastructure Architect">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Résumé · Arly Trenck">
+    <meta name="twitter:description" content="Arly Trenck's résumé. Certified IT Systems Engineer with 5+ years running multi-site infrastructure, security, and automation.">
+    <meta name="twitter:image" content="https://trenck.net/og-card.jpg">
+    <meta name="twitter:image:alt" content="Arly Trenck, IT Systems Engineer &amp; Infrastructure Architect">
 
-  p{margin:0 0 .42rem;}
-  .summary{color:var(--ink); font-weight:300; font-size:11pt; line-height:1.5;}
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
 
-  .skills p{margin:0 0 .3rem;}
-  .skills b{color:var(--navy); font-weight:600;}
+    <!-- Font: Libre Franklin (Benton Sans / Franklin Gothic lineage), self-hosted -->
+    <link rel="preload" href="/fonts/libre-franklin-300-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/libre-franklin-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/fonts/libre-franklin.css">
 
-  .certs .certnote{margin:0 0 .55rem; color:var(--muted); font-size:8.5pt; font-style:italic;}
-  .certs .cert-grid{display:grid; grid-template-columns:5.25rem 1fr; row-gap:.3rem; column-gap:.5rem;}
-  .certs .cert-iss{color:var(--navy); font-weight:600;}
-  .certs .cert-cred{color:var(--body);}
-  .certs p{margin:0 0 .32rem;}
-  .certs b{color:var(--navy); font-weight:600;}
+    <!-- Structured data for search engines -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://trenck.net/resume/#webpage",
+      "url": "https://trenck.net/resume/",
+      "name": "Résumé · Arly Trenck",
+      "description": "Arly Trenck's résumé. Certified IT Systems Engineer with 5+ years running multi-site infrastructure, security, and automation.",
+      "about": { "@id": "https://trenck.net/#person" },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://trenck.net/resume/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://trenck.net/" },
+        { "@type": "ListItem", "position": 2, "name": "Résumé", "item": "https://trenck.net/resume/" }
+      ]
+    }
+  ]
+}
+    </script>
 
-  .job-head{margin:1rem 0 0;}
-  .job-head .co{font-weight:600; font-size:11pt; color:var(--ink);}
-  .job-head .meta{color:var(--muted); font-size:8.5pt;}
-  .job-head .domain{display:block; color:var(--muted); font-size:8.7pt;
-    font-style:italic; margin-top:.14rem;}
+    <style>
+      :root{
+        --paper:#efece1; --sheet:#faf8f2; --navy:#002349; --navy-2:#0a305c;
+        --ink:#1a1d24; --body:#23272e; --muted:#6f6a5b; --line:#dad5c7;
+      }
+      *{box-sizing:border-box;}
+      html,body{margin:0;padding:0;}
+      body{
+        font-family:"Libre Franklin","Franklin Gothic","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+        color:var(--body); background:var(--paper);
+        font-size:10.4pt; line-height:1.42;
+        -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+      }
+      .back-link{max-width:8.5in; margin:22px auto 0; padding:0 .25in;
+        font-size:.7rem; font-weight:600; letter-spacing:.16em; text-transform:uppercase;}
+      .back-link a{color:var(--muted); text-decoration:none;}
+      .back-link a:hover{color:var(--navy);}
+      .updated{max-width:8.5in; margin:6px auto 30px; padding:0 .25in;
+        font-size:.68rem; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--muted);}
+      .page{
+        width:8.5in; min-height:11in; margin:14px auto 34px; padding:.62in .7in .74in;
+        background:var(--sheet);
+        box-shadow:0 1px 2px rgba(26,29,36,.05), 0 16px 40px -16px rgba(26,29,36,.22);
+      }
 
-  .role{font-weight:600; color:var(--ink); font-size:10.4pt; margin:.55rem 0 .18rem;}
-  .role .dates{font-weight:400; color:var(--muted); font-size:8.5pt;}
+      .masthead{margin:0;}
+      h1{color:var(--ink); font-weight:300; font-size:26pt; letter-spacing:-.018em;
+         line-height:1.04; margin:0;}
+      .tagline{margin:.55rem 0 0; color:var(--navy);
+        font-size:.7rem; font-weight:600; letter-spacing:.2em; text-transform:uppercase;}
+      .contact{margin:.8rem 0 0; padding:.75rem 0 0; border-top:1px solid var(--line);
+        color:var(--muted); font-size:8.5pt; letter-spacing:.012em;}
+      .contact a{color:inherit; text-decoration:none;}
+      .contact a:hover{color:var(--navy);}
 
-  ul{margin:.24rem 0 .4rem; padding-left:1.05rem;}
-  li{margin:0 0 .2rem; padding-left:.12rem;}
-  li::marker{color:#b7ae98;}
+      h2{color:var(--navy); font-size:.76rem; font-weight:600;
+         letter-spacing:.19em; text-transform:uppercase;
+         margin:1.5rem 0 0; padding:0 0 .4rem; border-bottom:1px solid var(--line);}
+      h2 + *{margin-top:.55rem;}
 
-  .techline{font-size:8.7pt; font-style:italic; color:var(--muted); margin:.2rem 0 .35rem;}
-  .techline b{font-style:italic; color:var(--muted); font-weight:600;}
+      p{margin:0 0 .42rem;}
+      .summary{color:var(--ink); font-weight:300; font-size:11pt; line-height:1.5;}
 
-  .subhead{font-weight:600; color:var(--navy); font-size:.68rem;
-    letter-spacing:.16em; text-transform:uppercase; margin:.8rem 0 .1rem;}
+      .skills p{margin:0 0 .3rem;}
+      .skills b{color:var(--navy); font-weight:600;}
 
-  .proj-title{font-weight:600; color:var(--ink); margin:.65rem 0 .12rem;}
-  .proj-title .dates,.proj-title .repo{font-weight:400; color:var(--muted); font-size:8.5pt;}
-  .proj-title + p{margin:0 0 .38rem;}
+      .certs .certnote{margin:0 0 .55rem; color:var(--muted); font-size:8.5pt; font-style:italic;}
+      .certs .cert-grid{display:grid; grid-template-columns:5.25rem 1fr; row-gap:.3rem; column-gap:.5rem;}
+      .certs .cert-iss{color:var(--navy); font-weight:600;}
+      .certs .cert-cred{color:var(--body);}
+      .certs p{margin:0 0 .32rem;}
+      .certs b{color:var(--navy); font-weight:600;}
 
-  @media print{
-    .back-link{display:none;}
-    :root{--paper:#fff; --sheet:#fff;}
-    body{background:#fff; font-size:10pt;}
-    .page{width:auto; min-height:0; margin:0; padding:0; box-shadow:none;}
-    @page{size:Letter; margin:.55in .6in;}
-    h2,.job-head,.role,.proj-title,.subhead{page-break-after:avoid;}
-    li,p{page-break-inside:avoid;}
-    a{color:inherit; text-decoration:none;}
-  }
-</style>
+      .job-head{margin:1rem 0 0;}
+      .job-head .co{font-weight:600; font-size:11pt; color:var(--ink);}
+      .job-head .meta{color:var(--muted); font-size:8.5pt;}
+      .job-head .domain{display:block; color:var(--muted); font-size:8.7pt;
+        font-style:italic; margin-top:.14rem;}
+
+      .role{font-weight:600; color:var(--ink); font-size:10.4pt; margin:.55rem 0 .18rem;}
+      .role .dates{font-weight:400; color:var(--muted); font-size:8.5pt;}
+
+      ul{margin:.24rem 0 .4rem; padding-left:1.05rem;}
+      li{margin:0 0 .2rem; padding-left:.12rem;}
+      li::marker{color:#b7ae98;}
+
+      .techline{font-size:8.7pt; font-style:italic; color:var(--muted); margin:.2rem 0 .35rem;}
+      .techline b{font-style:italic; color:var(--muted); font-weight:600;}
+
+      .subhead{font-weight:600; color:var(--navy); font-size:.68rem;
+        letter-spacing:.16em; text-transform:uppercase; margin:.8rem 0 .1rem;}
+
+      .proj-title{font-weight:600; color:var(--ink); margin:.65rem 0 .12rem;}
+      .proj-title .dates,.proj-title .repo{font-weight:400; color:var(--muted); font-size:8.5pt;}
+      .proj-title + p{margin:0 0 .38rem;}
+
+      @media print{
+        .back-link{display:none;}
+        :root{--paper:#fff; --sheet:#fff;}
+        body{background:#fff; font-size:10pt;}
+        .page{width:auto; min-height:0; margin:0; padding:0; box-shadow:none;}
+        @page{size:Letter; margin:.55in .6in;}
+        h2,.job-head,.role,.proj-title,.subhead{page-break-after:avoid;}
+        li,p{page-break-inside:avoid;}
+        a{color:inherit; text-decoration:none;}
+      }
+    </style>
+    <script defer src="https://stats.trenck.net/script.js" data-website-id="07d30383-3f4d-4257-b359-8d42cd9c24dc"></script>
 </head>
 <body>
-<div class="page">
+<p class="back-link"><a href="/">&larr; trenck.net</a></p>
+<main class="page">
 
   <header class="masthead">
     <h1>Arly Trenck</h1>
@@ -142,7 +207,7 @@
     <li>Administer identity and access across Active Directory, Entra ID, Okta, and Google Workspace, including SAML integrations, conditional access, and MFA policy</li>
     <li>Automate account lifecycle and operational reporting in PowerShell, halving onboarding and offboarding turnaround (~60 to ~30 minutes per employee) and eliminating recurring manual reporting</li>
     <li>Manage MSP, BPO, and third-party vendor relationships, holding service quality consistent across all 29 sites</li>
-    <li>Maintain backup and disaster-recovery coverage on Datto and Druva, with restores tested on a fixed schedule</li>
+    <li>Maintain backup and disaster-recovery coverage, with restores tested on a fixed schedule</li>
   </ul>
   <p class="techline"><b>Technologies:</b> Windows Server, Active Directory, Entra ID, Okta, Google Workspace, SonicWall, RUCKUS One, PowerShell, NinjaOne, Freshservice, Datto, Druva</p>
 
@@ -190,7 +255,7 @@
   <p class="proj-title">MyComputerCareer, IT Systems Administration Program <span class="dates">(2021)</span></p>
   <p>World Class IT Professional (WCITP) classification; Academic Achievement certificate (97%+ GPA); 8 certification exams passed before graduation.</p>
 
-</div>
+</main>
 <p class="updated">Updated September 2026</p>
 </body>
 </html>
