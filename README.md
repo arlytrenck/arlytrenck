@@ -1,4 +1,4 @@
-![Arly Trenck — IT Systems Engineer & Infrastructure Architect](./img/linkedin-banner.png)
+![Arly Trenck, IT Systems Engineer & Infrastructure Architect](./img/linkedin-banner.png)
 
 # Hi, I'm Arly Trenck 👋
 
@@ -7,7 +7,7 @@ in enterprise IT, that covers servers, networks, identity, security, and
 backup for 29 offices across Connecticut, New York, and Massachusetts.
 
 Outside of work I run a homelab, and I run it the way I run production: as
-code — hardened Docker Compose stacks behind Caddy, a one-command Ansible host
+code: hardened Docker Compose stacks behind Caddy, a one-command Ansible host
 rebuild, Tailscale, Proxmox, and config snapshots in git. The pieces I can
 share are in
 [`sysadmin-linux`](https://github.com/arlytrenck/sysadmin-linux),
