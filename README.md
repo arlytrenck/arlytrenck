@@ -2,10 +2,9 @@
 
 # Hi, I'm Arly Trenck 👋
 
-I build systems that hold up and automate the work around them. With 5+ years in
-enterprise IT, what I care about is infrastructure that doesn't break and
-automation that gives people their time back — across servers, networks,
-identity, security, and backup for multi-site environments.
+I build systems that hold up and automate the work around them. With 5+ years
+in enterprise IT, that covers servers, networks, identity, security, and
+backup for 29 offices across Connecticut, New York, and Massachusetts.
 
 Outside of work I run a homelab, and I run it the way I run production: as
 code — hardened Docker Compose stacks behind Caddy, a one-command Ansible host
