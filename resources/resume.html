@@ -84,9 +84,14 @@
         -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
       }
       .back-link{max-width:8.5in; margin:22px auto 0; padding:0 .25in;
+        display:flex; align-items:center; justify-content:space-between; gap:1rem;
         font-size:.7rem; font-weight:600; letter-spacing:.16em; text-transform:uppercase;}
       .back-link a{color:var(--muted); text-decoration:none;}
       .back-link a:hover{color:var(--navy);}
+      .print-btn{font:inherit; font-size:.7rem; font-weight:600; letter-spacing:.16em;
+        text-transform:uppercase; color:var(--navy); background:var(--sheet);
+        border:1px solid var(--line); padding:.42rem .9rem; cursor:pointer;}
+      .print-btn:hover{background:var(--navy); color:var(--paper); border-color:var(--navy);}
       .updated{max-width:8.5in; margin:6px auto 30px; padding:0 .25in;
         font-size:.68rem; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--muted);}
       .page{
@@ -160,7 +165,10 @@
     <script defer src="https://stats.trenck.net/script.js" data-website-id="07d30383-3f4d-4257-b359-8d42cd9c24dc"></script>
 </head>
 <body>
-<p class="back-link"><a href="/">&larr; trenck.net</a></p>
+<div class="back-link">
+    <a href="/">&larr; trenck.net</a>
+    <button type="button" id="print-btn" class="print-btn">Print / Save as PDF</button>
+</div>
 <main class="page">
 
   <header class="masthead">
@@ -257,5 +265,6 @@
 
 </main>
 <p class="updated">Updated September 2026</p>
+<script defer src="/resume/print.js"></script>
 </body>
 </html>
