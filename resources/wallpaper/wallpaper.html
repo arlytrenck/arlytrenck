@@ -1,0 +1,78 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>trenck.net wallpaper</title>
+<style>
+@font-face{font-family:'Cormorant Garamond';font-weight:500;src:url('../../../trenck.net/fonts/cormorant-garamond-latin-500-normal.woff2') format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;src:url('../../../trenck.net/fonts/cormorant-garamond-latin-400-italic.woff2') format('woff2')}
+@font-face{font-family:'Libre Franklin';font-weight:300;src:url('../../../trenck.net/fonts/libre-franklin-300-latin.woff2') format('woff2')}
+@font-face{font-family:'Libre Franklin';font-weight:500;src:url('../../../trenck.net/fonts/libre-franklin-500-latin.woff2') format('woff2')}
+@font-face{font-family:'Libre Franklin';font-weight:600;src:url('../../../trenck.net/fonts/libre-franklin-600-latin.woff2') format('woff2')}
+
+:root{
+  --bg:#F5F3EC; --bg2:#ECE8DC; --title:#002349; --body:#454A54; --eyebrow:#6E5629;
+  --gold:#A8894F; --mark:#002349; --mark2:#8A8E96; --line:rgba(0,35,73,.05);
+  --node:rgba(0,35,73,.22); --link:rgba(0,35,73,.10); --hub:#A8894F;
+}
+.dark{
+  --bg:#001A38; --bg2:#001229; --title:#F5F3EC; --body:#C3CDD9; --eyebrow:#D4BC8C;
+  --gold:#A8894F; --mark:#DCE3EC; --mark2:#8E9CAE; --line:rgba(220,227,236,.045);
+  --node:rgba(212,188,140,.38); --link:rgba(201,211,223,.10); --hub:#D4BC8C;
+}
+html,body{margin:0;width:1536px;height:960px;overflow:hidden}
+body{
+  background:
+    radial-gradient(1200px 900px at 78% 38%, var(--bg) 0%, transparent 70%),
+    linear-gradient(160deg, var(--bg) 0%, var(--bg2) 100%);
+  position:relative;font-family:'Libre Franklin',sans-serif;
+}
+/* faint rack-unit rules */
+.rules{position:absolute;inset:0;
+  background-image:repeating-linear-gradient(0deg, var(--line) 0 1px, transparent 1px 44px);
+  -webkit-mask-image:linear-gradient(90deg, transparent 0%, #000 55%, #000 100%);
+  mask-image:linear-gradient(90deg, transparent 0%, #000 55%, #000 100%);
+}
+svg{position:absolute;inset:0}
+.copy{position:absolute;left:120px;bottom:210px}
+.eyebrow{font-weight:600;font-size:15px;letter-spacing:.32em;text-transform:uppercase;color:var(--eyebrow);line-height:1.7}
+h1{margin:22px 0 0;font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:132px;line-height:.95;letter-spacing:-.01em;color:var(--title)}
+.tag{display:flex;align-items:flex-start;gap:30px;margin-top:40px}
+.tag i{display:block;width:62px;height:1.5px;background:var(--gold);margin-top:16px;flex:none}
+.tag p{margin:0;font-weight:300;font-size:25px;line-height:1.5;color:var(--body)}
+.mark{margin-top:56px;font-size:19px;letter-spacing:.28em;font-weight:600;color:var(--mark)}
+.mark span{font-weight:400;color:var(--mark2)}
+</style></head>
+<body>
+<div class="rules"></div>
+<svg id="net" width="1536" height="960" viewBox="0 0 1536 960"></svg>
+<div class="copy">
+  <div class="eyebrow">IT Systems Engineer &amp;<br>Infrastructure Architect</div>
+  <h1>Arly Trenck</h1>
+  <div class="tag"><i></i><p>Multi-site infrastructure, networks,<br>and security for 29 offices.</p></div>
+  <div class="mark">TRENCK<span>.NET</span></div>
+</div>
+<script>
+if (location.hash === '#dark') document.documentElement.classList.add('dark');
+// 29 office nodes around a hub, deterministic layout
+let s = 7; const r = () => (s = (s * 16807) % 2147483647) / 2147483647;
+const hub = {x: 1130, y: 440};
+const nodes = [];
+for (let i = 0; i < 29; i++) {
+  const a = (i / 29) * Math.PI * 2 + (r() - .5) * .35;
+  const d = 150 + r() * 250;
+  nodes.push({x: hub.x + Math.max(-450, Math.min(330, Math.cos(a) * d * 1.3)), y: hub.y + Math.sin(a) * d * .85});
+}
+const NS = 'http://www.w3.org/2000/svg', svg = document.getElementById('net');
+const el = (t, a) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); svg.appendChild(e); return e; };
+const cs = getComputedStyle(document.documentElement);
+const link = cs.getPropertyValue('--link'), node = cs.getPropertyValue('--node'), hubc = cs.getPropertyValue('--hub');
+// spokes to hub, plus nearest-neighbour ring links
+nodes.forEach((n, i) => {
+  el('line', {x1: hub.x, y1: hub.y, x2: n.x, y2: n.y, stroke: link, 'stroke-width': 1});
+  const m = nodes[(i + 1) % nodes.length];
+  el('line', {x1: n.x, y1: n.y, x2: m.x, y2: m.y, stroke: link, 'stroke-width': 1, 'stroke-dasharray': '2 5'});
+});
+[90, 150].forEach(rad => el('ellipse', {cx: hub.x, cy: hub.y, rx: rad * 1.25, ry: rad * .82, fill: 'none', stroke: link, 'stroke-width': 1}));
+nodes.forEach(n => el('circle', {cx: n.x, cy: n.y, r: 3.2, fill: node}));
+el('circle', {cx: hub.x, cy: hub.y, r: 16, fill: 'none', stroke: hubc, 'stroke-width': 1.2, opacity: .7});
+el('circle', {cx: hub.x, cy: hub.y, r: 5.5, fill: hubc});
+</script>
+</body></html>
