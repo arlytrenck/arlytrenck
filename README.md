@@ -1,4 +1,4 @@
-![Arly Trenck, IT Systems Engineer & Infrastructure Architect](./img/banners/twitter-banner.png)
+![Arly Trenck, IT Systems Engineer & Infrastructure Architect](./img/banners/twitter-banner-v2.png)
 
 # Arly Trenck
 
