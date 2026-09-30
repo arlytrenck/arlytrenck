@@ -1,4 +1,4 @@
-![Arly Trenck, IT Systems Engineer & Infrastructure Architect](./img/banners/switch-banner.png)
+![Arly Trenck, IT Systems Engineer & Infrastructure Architect](./img/banners/github-banner.png)
 
 # Arly Trenck
 
