@@ -47,6 +47,13 @@ Compose infrastructure behind the homelab on my site, with identifying details
 redacted. The hardening conventions and all 69 live Prometheus alerting rules are
 published unedited. The runbook and the per-device config stay private.
 
+**[homi](https://github.com/arlytrenck/homi)** is a read-only dashboard for
+the homelab, and I develop it. A collector is any executable that prints one JSON
+object to stdout, so a collector can be a four-line shell script and nobody has to
+read any Go to add support for their own gear. It cannot change anything on the
+network: no restart, no exec, no stop. Still under development, with no release
+yet.
+
 ## Homelab
 
 Cloudflare answers DNS for every subdomain, and the home network opens only
