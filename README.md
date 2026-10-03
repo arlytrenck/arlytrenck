@@ -5,9 +5,8 @@
 IT systems engineer and infrastructure architect in Fairfield, CT. I run
 infrastructure operations for a 29-office residential real-estate brokerage
 across Connecticut, New York, and Massachusetts: servers, firewalls, wireless,
-identity, and the automation that keeps every site consistent. Single sign-on
-and conditional access cover 1,250+ users across Microsoft Entra ID, Okta, and
-Google Workspace.
+identity, and automation. Single sign-on and conditional access cover 1,250+
+users across Microsoft Entra ID, Okta, and Google Workspace.
 
 Every office runs one standard, so a fix that works at one site applies to the
 other 28. Recurring work gets scripted instead of repeated. Completed work
@@ -45,9 +44,8 @@ PSScriptAnalyzer runs in CI.
 
 **[homelab-public](https://github.com/arlytrenck/homelab-public)** is the Docker
 Compose infrastructure behind the homelab on my site, with identifying details
-redacted. The hardening conventions, the full set of 69 live Prometheus alerting
-rules, and the config that keeps every stack consistent are published unedited.
-The runbook and the per-device config stay private.
+redacted. The hardening conventions and all 69 live Prometheus alerting rules are
+published unedited. The runbook and the per-device config stay private.
 
 ## Homelab
 
@@ -55,18 +53,13 @@ Cloudflare answers DNS for every subdomain, and the home network opens only
 ports 80 and 443. Caddy terminates TLS with certificates issued over DNS-01,
 Authelia puts single sign-on and two-factor in front of everything private, and
 the request reaches one of 43 containers running as Docker Compose stacks on a
-16 vCPU Ubuntu LTS VM under Proxmox VE 9. Prometheus and Loki feed Alertmanager,
-which pages Gotify on my phone. Remote access runs over a Tailscale subnet
-router, so no admin interface needs a public port.
+16 vCPU Ubuntu LTS VM under Proxmox VE 9. Remote access runs over a Tailscale
+subnet router, so no admin interface needs a public port.
 
-- **Services.** 43 containers, every one defined in a version-controlled Compose
-  stack.
-- **Alerts.** 69 Prometheus rules routed through Alertmanager to Gotify.
-- **Backups.** Five independent copies, with a restore drill every month that
-  reports pass or fail.
-- **Rebuild.** The host rebuilds from one Ansible playbook.
-- **Access.** Authelia single sign-on and two-factor in front of all 43
-  services.
+Every container is defined in a version-controlled Compose stack. 69 Prometheus
+rules run through Alertmanager and page Gotify on my phone. Five independent
+copies, with a restore drill every month that reports pass or fail. The host
+rebuilds from one Ansible playbook.
 
 The hardware is a Lenovo ThinkSystem SR650 running Proxmox VE 9 on ZFS, two
 Synology NAS units, a Cisco SG350 switch, and a CyberPower UPS watched by NUT
