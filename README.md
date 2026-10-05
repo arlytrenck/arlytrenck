@@ -60,18 +60,18 @@ yet.
 Cloudflare answers DNS for every subdomain, and the home network opens only
 ports 80 and 443. Caddy terminates TLS with certificates issued over DNS-01,
 Authelia puts single sign-on and two-factor in front of everything private, and
-the request reaches one of 43 containers running as Docker Compose stacks on a
+the request reaches one of 54 containers running as Docker Compose stacks on a
 16 vCPU Ubuntu LTS VM under Proxmox VE 9. Remote access runs over a Tailscale
 subnet router, so no admin interface needs a public port.
 
-Every container is defined in a version-controlled Compose stack. 69 Prometheus
+Every container is defined in a version-controlled Compose stack. 71 Prometheus
 rules run through Alertmanager and page Gotify on my phone. Five independent
 copies, with a restore drill every month that reports pass or fail. The host
 rebuilds from one Ansible playbook.
 
 The hardware is a Lenovo ThinkSystem SR650 running Proxmox VE 9 on ZFS, two
-Synology NAS units, a Cisco SG350 switch, and a CyberPower UPS watched by NUT
-for clean shutdown. [Architecture and rack layout](https://trenck.net/homelab/).
+Synology NAS units, a UniFi Dream Machine SE gateway and switch with a UniFi U7
+Pro access point, and a CyberPower UPS watched by NUT for clean shutdown. [Architecture and rack layout](https://trenck.net/homelab/).
 
 ## Certifications
 
