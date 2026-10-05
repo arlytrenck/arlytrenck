@@ -44,8 +44,9 @@ PSScriptAnalyzer runs in CI.
 
 **[homelab-public](https://github.com/arlytrenck/homelab-public)** is the Docker
 Compose infrastructure behind the homelab on my site, with identifying details
-redacted. The hardening conventions and all 69 live Prometheus alerting rules are
-published unedited. The runbook and the per-device config stay private.
+redacted. The hardening conventions and 44 Prometheus alerting rules are
+published unedited. The runbook, the per-device config, and the remaining rules
+stay private.
 
 **[homi](https://github.com/arlytrenck/homi)** is a read-only dashboard for
 the homelab, and I develop it. A collector is any executable that prints one JSON
