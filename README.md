@@ -5,8 +5,8 @@
 IT systems engineer and infrastructure architect in Fairfield, CT. I run
 infrastructure operations for a 29-office residential real-estate brokerage
 across Connecticut, New York, and Massachusetts: servers, firewalls, wireless,
-identity, and automation. Single sign-on and conditional access cover 1,250+
-users across Microsoft Entra ID, Okta, and Google Workspace.
+identity, and automation. Single sign-on covers 1,250+ users across Microsoft
+Entra ID, Okta, and Google Workspace, and an MFA rollout is under way.
 
 Every office runs one standard, so a fix that works at one site applies to the
 other 28. Recurring work gets scripted instead of repeated. Completed work
@@ -20,7 +20,7 @@ support.
 | Area | Stack |
 | --- | --- |
 | Systems | Windows Server 2019 / 2022 / 2025, Active Directory & Group Policy, Ubuntu Server LTS, Proxmox VE, VMware, Synology DSM |
-| Identity | Microsoft 365, Entra ID, conditional access & MFA, Okta Workforce Identity, SAML SSO, Google Workspace, RBAC & least privilege |
+| Identity | Microsoft 365, Entra ID, MFA, Okta Workforce Identity, SAML SSO, Google Workspace, RBAC & least privilege |
 | Network & security | SonicWall firewalls (SonicOS), RUCKUS One, VLANs & subnetting, IPsec & WireGuard VPN, DNS / DHCP, Cisco Umbrella, SentinelOne EDR / XDR |
 | Automation | PowerShell, Bash, Ansible, Git, Renovate, NinjaOne, ConnectWise Automate, Freshservice, Auvik, Liongard |
 | Backup & recovery | Datto BDR, Druva, Spanning Backup, restic, disaster-recovery planning & restore testing |
@@ -40,7 +40,9 @@ leaked secret, and a failed patch. ShellCheck runs in CI.
 **[sysadmin-windows](https://github.com/arlytrenck/sysadmin-windows)** is a
 PowerShell toolkit for Windows Server: diffable config snapshots including
 Hyper-V hosts, account and security audits, patching, and reporting.
-PSScriptAnalyzer runs in CI.
+PSScriptAnalyzer runs in CI. A third companion,
+[sysadmin-macos](https://github.com/arlytrenck/sysadmin-macos), covers macOS
+the same way, with ShellCheck in CI.
 
 **[homelab-public](https://github.com/arlytrenck/homelab-public)** is the Docker
 Compose infrastructure behind the homelab on my site, with identifying details
@@ -48,12 +50,13 @@ redacted. The hardening conventions and 44 Prometheus alerting rules are
 published unedited. The runbook, the per-device config, and the remaining rules
 stay private.
 
-**[homi](https://github.com/arlytrenck/homi)** is a read-only dashboard for
-the homelab, and I develop it. A collector is any executable that prints one JSON
-object to stdout, so a collector can be a four-line shell script and nobody has to
-read any Go to add support for their own gear. It cannot change anything on the
-network: no restart, no exec, no stop. Still under development, with no release
-yet.
+**[homi](https://github.com/arlytrenck/homi)** is a self-hostable homelab
+dashboard that I develop: a service launcher with HTTP, TCP, and ping health
+checks, uptime history, and Docker auto-discovery. Integrations cover Proxmox,
+UniFi, Synology, and the *arr apps, among others, and a plugin API handles the
+rest. It runs as one container with one SQLite file, built with Next.js and
+TypeScript under the MIT license. v0.1.0 is out; the integrations are tested
+against mock servers, not yet live instances.
 
 ## Homelab
 
