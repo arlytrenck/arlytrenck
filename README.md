@@ -5,8 +5,8 @@
 IT systems engineer and infrastructure architect in Fairfield, CT. I run
 infrastructure operations for a 29-office residential real-estate brokerage
 across Connecticut, New York, and Massachusetts: servers, firewalls, wireless,
-identity, and automation. Single sign-on and conditional access cover 1,250+
-users across Microsoft Entra ID, Okta, and Google Workspace.
+identity, and automation. Single sign-on covers 1,250+ users across Microsoft
+Entra ID, Okta, and Google Workspace, and an MFA rollout is under way.
 
 Every office runs one standard, so a fix that works at one site applies to the
 other 28. Recurring work gets scripted instead of repeated. Completed work
@@ -20,7 +20,7 @@ support.
 | Area | Stack |
 | --- | --- |
 | Systems | Windows Server 2019 / 2022 / 2025, Active Directory & Group Policy, Ubuntu Server LTS, Proxmox VE, VMware, Synology DSM |
-| Identity | Microsoft 365, Entra ID, conditional access & MFA, Okta Workforce Identity, SAML SSO, Google Workspace, RBAC & least privilege |
+| Identity | Microsoft 365, Entra ID, MFA, Okta Workforce Identity, SAML SSO, Google Workspace, RBAC & least privilege |
 | Network & security | SonicWall firewalls (SonicOS), RUCKUS One, VLANs & subnetting, IPsec & WireGuard VPN, DNS / DHCP, Cisco Umbrella, SentinelOne EDR / XDR |
 | Automation | PowerShell, Bash, Ansible, Git, Renovate, NinjaOne, ConnectWise Automate, Freshservice, Auvik, Liongard |
 | Backup & recovery | Datto BDR, Druva, Spanning Backup, restic, disaster-recovery planning & restore testing |
