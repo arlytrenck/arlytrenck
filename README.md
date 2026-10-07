@@ -56,7 +56,7 @@ unified-logging cheatsheets.
 <td width="50%" valign="top">
 
 ### [arly-skill](https://github.com/arlytrenck/arly-skill)
-![Agent skill](https://img.shields.io/badge/Agent_skill-181817?style=flat-square)
+![Agent skill](https://img.shields.io/badge/Agent_skill-7A5C12?style=flat-square)
 
 My playbook as an installable agent skill. Describe a situation and it
 returns the runbook that fits and the script that does the work. Built only
