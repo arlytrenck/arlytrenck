@@ -9,70 +9,133 @@
   <a href="mailto:arly@trenck.net">arly@trenck.net</a>
 </p>
 
-## Hi, I'm Arly
+I'm an IT systems engineer in Fairfield, CT. By day I run infrastructure
+for a 29-office brokerage across three states. By night I turn what that
+teaches me into public tools. Every repo below started as a script I wrote
+twice, then generalized.
 
-IT systems engineer and infrastructure architect in Fairfield, CT. I run
-infrastructure operations for a 29-office residential real-estate brokerage
-across Connecticut, New York, and Massachusetts: servers, firewalls,
-wireless, identity, and automation.
+## Projects
 
-Every office runs one standard, so a fix that works at one site applies to
-the other 28. Recurring work gets scripted instead of repeated.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## At a glance
+### [sysadmin-linux](https://github.com/arlytrenck/sysadmin-linux)
+![Shell](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=flat-square)
+![ShellCheck](https://img.shields.io/badge/CI-ShellCheck-informational?style=flat-square)
 
-| | |
-| --- | --- |
-| **29** offices | One standard build across CT, NY, and MA |
-| **1,250+** users | Single sign-on across Entra ID, Okta, and Google Workspace; MFA rollout under way |
-| **29** firewalls | Refreshed at every office with no unplanned business-hours downtime |
-| **52** access points | Moved to RUCKUS One cloud management |
-| **160** endpoints | Scripted Windows 11 in-place upgrade ahead of end of support |
+**39 scripts** and runbooks for Linux hosts. Verified backups, container
+audits, SSH key and TLS expiry checks, patch wrappers, and runbooks for a
+full disk, a leaked secret, and a failed patch.
 
-## What I run
+</td>
+<td width="50%" valign="top">
+
+### [sysadmin-windows](https://github.com/arlytrenck/sysadmin-windows)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white&style=flat-square)
+![PSScriptAnalyzer](https://img.shields.io/badge/CI-PSScriptAnalyzer-informational?style=flat-square)
+
+**27 scripts** for Windows Server. Diffable config snapshots including
+Hyper-V, local admin and scheduled-task audits, Defender status, patching.
+Everything that changes state supports `-WhatIf`.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [sysadmin-macos](https://github.com/arlytrenck/sysadmin-macos)
+![Shell](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=flat-square)
+![ShellCheck](https://img.shields.io/badge/CI-ShellCheck-informational?style=flat-square)
+
+**18 scripts** for macOS. SIP, Gatekeeper and FileVault audits, listening
+port allowlists, Time Machine verification, and launchd, APFS, and
+unified-logging cheatsheets.
+
+</td>
+<td width="50%" valign="top">
+
+### [arly-skill](https://github.com/arlytrenck/arly-skill)
+![Agent skill](https://img.shields.io/badge/Agent_skill-181817?style=flat-square)
+
+My playbook as an installable agent skill. Describe a situation and it
+returns the runbook that fits and the script that does the work. Built only
+from my public tools and writing.
+
+```sh
+npx skills add arlytrenck/arly-skill -g
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [homelab-public](https://github.com/arlytrenck/homelab-public)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?logo=docker&logoColor=white&style=flat-square)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white&style=flat-square)
+
+The Compose infrastructure behind my homelab, with identifying details
+redacted. Hardening conventions, a getting-started guide, a
+lessons-learned file of real mistakes, and **44 Prometheus alert rules**
+published unedited.
+
+</td>
+<td width="50%" valign="top">
+
+### [homi](https://github.com/arlytrenck/homi)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Release](https://img.shields.io/badge/release-v0.1.0-blue?style=flat-square)
+
+A self-hostable homelab dashboard. Service launcher, HTTP, TCP, and ping
+health checks, uptime history, Docker auto-discovery, and a plugin API.
+One container, one SQLite file. Integrations are tested against mock
+servers, not yet live instances.
+
+</td>
+</tr>
+</table>
+
+## How they fit together
+
+The three sysadmin toolkits cover Linux, Windows Server, and macOS the same
+way, one linter per repo. `arly-skill` indexes them, along with my runbooks
+and writing, so an agent can point at the right script. `homelab-public`
+shows the same habits applied to a personal stack, and `homi` is the
+dashboard I built for that kind of stack.
+
+## Homelab in one paragraph
+
+Cloudflare answers DNS and only ports 80 and 443 reach the house. Caddy
+terminates TLS, Authelia puts SSO and two-factor in front of everything
+private, and requests land on one of 54 Docker Compose containers on a
+Proxmox VE 9 host. Tailscale handles remote admin, 71 Prometheus rules page
+my phone through Gotify, and the whole host rebuilds from one Ansible
+playbook. Five independent backup copies get a monthly restore drill.
+[Architecture and rack layout](https://trenck.net/homelab/).
+
+<details>
+<summary><b>Day job and stack</b></summary>
+
+<br>
+
+At a 29-office residential real-estate brokerage in CT, NY, and MA, every
+office runs one standard, so a fix at one site applies to the other 28.
+Single sign-on covers 1,250+ users across Entra ID, Okta, and Google
+Workspace, with an MFA rollout under way. Completed work includes a
+firewall refresh across all 29 offices, 52 access points moved to RUCKUS
+One, and a scripted Windows 11 upgrade across 160 endpoints.
 
 | Area | Stack |
 | --- | --- |
 | Systems | Windows Server 2019 / 2022 / 2025, Active Directory & Group Policy, Ubuntu Server LTS, Proxmox VE, VMware, Synology DSM |
-| Identity | Microsoft 365, Entra ID, MFA, Okta Workforce Identity, SAML SSO, Google Workspace, RBAC & least privilege |
-| Network & security | SonicWall (SonicOS), RUCKUS One, VLANs & subnetting, IPsec & WireGuard VPN, DNS / DHCP, Cisco OpenDNS (Umbrella), Huntress EDR |
+| Identity | Microsoft 365, Entra ID, MFA, Okta Workforce Identity, SAML SSO, Google Workspace |
+| Network & security | SonicWall, RUCKUS One, VLANs, IPsec & WireGuard VPN, DNS / DHCP, Cisco OpenDNS, Huntress EDR |
 | Automation | PowerShell, Bash, Ansible, Git, Renovate, NinjaOne, ImmyBot, Liongard, IT Glue, Auvik, Freshservice |
-| Backup & recovery | Axcient, Spanning Backup, restic, disaster-recovery planning & restore testing |
+| Backup & recovery | Axcient, Spanning Backup, restic, restore testing |
 
-## Projects
-
-| Project | What it is |
-| --- | --- |
-| [**arly-skill**](https://github.com/arlytrenck/arly-skill) | Takes a situation, returns the runbook that fits, and names the script that does the work. My playbook as an installable agent skill. |
-| [**sysadmin-linux**](https://github.com/arlytrenck/sysadmin-linux) | Bash toolkit for Linux hosts: verified backups, container-host drift and security audits, TLS expiry checks, and runbooks. ShellCheck in CI. |
-| [**sysadmin-windows**](https://github.com/arlytrenck/sysadmin-windows) | PowerShell toolkit for Windows Server: diffable config snapshots including Hyper-V, account and security audits, patching, reporting. PSScriptAnalyzer in CI. |
-| [**sysadmin-macos**](https://github.com/arlytrenck/sysadmin-macos) | The same approach for macOS, with ShellCheck in CI. |
-| [**homelab-public**](https://github.com/arlytrenck/homelab-public) | Docker Compose infrastructure behind my homelab, identifying details redacted. Hardening conventions and 44 Prometheus alerting rules published unedited. |
-| [**homi**](https://github.com/arlytrenck/homi) | Self-hostable homelab dashboard: service launcher, HTTP / TCP / ping health checks, uptime history, Docker auto-discovery, and a plugin API. One container, one SQLite file. Next.js and TypeScript, MIT. v0.1.0 is out; integrations are tested against mock servers, not yet live instances. |
-
-## Homelab
-
-```text
-Cloudflare DNS ─► ports 80/443 ─► Caddy (TLS, DNS-01) ─► Authelia (SSO + 2FA)
-                                                          └─► 54 containers
-                                      Docker Compose on a 16 vCPU Ubuntu VM
-                                      under Proxmox VE 9 on ZFS
-```
-
-- **Exposure:** the home network opens only ports 80 and 443. Remote access
-  runs over a Tailscale subnet router, so no admin interface needs a public
-  port.
-- **Everything as code:** every container is a version-controlled Compose
-  stack, and the host rebuilds from one Ansible playbook.
-- **Monitoring:** 71 Prometheus rules run through Alertmanager and page
-  Gotify on my phone.
-- **Backups:** five independent copies, with a monthly restore drill that
-  reports pass or fail.
-- **Hardware:** Lenovo ThinkSystem SR650, two Synology NAS units, a UniFi
-  Dream Machine SE gateway and switch with a U7 Pro access point, and a
-  CyberPower UPS watched by NUT for clean shutdown.
-
-[Architecture and rack layout](https://trenck.net/homelab/)
+</details>
 
 ## Certifications
 
