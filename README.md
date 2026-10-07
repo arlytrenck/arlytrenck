@@ -47,10 +47,6 @@ curl -O https://raw.githubusercontent.com/arlytrenck/homi/main/docker-compose.ym
 docker compose up -d        # then open http://localhost:3000
 ```
 
-Honest status: v0.1.0 is out, and the integrations are tested against mock
-servers, not yet live instances. [Roadmap](https://github.com/arlytrenck/homi/blob/main/docs/roadmap.md)
-&nbsp;·&nbsp; [Docker labels](https://github.com/arlytrenck/homi/blob/main/docs/docker-labels.md)
-
 ## More projects
 
 <table>
