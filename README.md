@@ -21,9 +21,9 @@ support.
 | --- | --- |
 | Systems | Windows Server 2019 / 2022 / 2025, Active Directory & Group Policy, Ubuntu Server LTS, Proxmox VE, VMware, Synology DSM |
 | Identity | Microsoft 365, Entra ID, MFA, Okta Workforce Identity, SAML SSO, Google Workspace, RBAC & least privilege |
-| Network & security | SonicWall firewalls (SonicOS), RUCKUS One, VLANs & subnetting, IPsec & WireGuard VPN, DNS / DHCP, Cisco Umbrella, SentinelOne EDR / XDR |
-| Automation | PowerShell, Bash, Ansible, Git, Renovate, NinjaOne, ConnectWise Automate, Freshservice, Auvik, Liongard |
-| Backup & recovery | Datto BDR, Druva, Spanning Backup, restic, disaster-recovery planning & restore testing |
+| Network & security | SonicWall firewalls (SonicOS), RUCKUS One, VLANs & subnetting, IPsec & WireGuard VPN, DNS / DHCP, Cisco OpenDNS (Umbrella), Huntress EDR |
+| Automation | PowerShell, Bash, Ansible, Git, Renovate, NinjaOne, ImmyBot, Liongard, IT Glue, Auvik, Freshservice |
+| Backup & recovery | Axcient, Spanning Backup, restic, disaster-recovery planning & restore testing |
 
 ## Projects
 
