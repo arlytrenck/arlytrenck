@@ -1,5 +1,3 @@
-![Arly Trenck, IT Systems Engineer & Infrastructure Architect](./img/banners/github-banner.png)
-
 <p align="center">
   <a href="https://trenck.net">Website</a> &nbsp;·&nbsp;
   <a href="https://trenck.net/blog/">Blog</a> &nbsp;·&nbsp;
