@@ -5,6 +5,7 @@
   <a href="https://www.linkedin.com/in/arlytrenck">LinkedIn</a> &nbsp;·&nbsp;
   <a href="https://www.credly.com/users/arlington-trenck">Credly</a> &nbsp;·&nbsp;
   <a href="mailto:arly@trenck.net">arly@trenck.net</a>
+</p>
 
 I'm an IT systems engineer in Fairfield, CT. By day I run infrastructure
 for a 29-office brokerage across three states. By night I build in the
