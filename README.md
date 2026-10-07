@@ -151,13 +151,14 @@ One, and a scripted Windows 11 upgrade across 160 endpoints.
 ## Certifications
 
 <p align="center">
-  <a href="https://www.credly.com/badges/75587b8c-296b-4657-a670-0b156d7b1335"><img src="./img/certs/comptia-security-plus.png" alt="CompTIA Security+" width="84" height="84" /></a>
-  <a href="https://www.credly.com/badges/1f7ea311-0c34-4d04-8ae3-d52537a2b9a1"><img src="./img/certs/comptia-network-plus.png" alt="CompTIA Network+" width="84" height="84" /></a>
-  <a href="https://www.credly.com/badges/80014155-511f-489c-b198-35a5a22f366a"><img src="./img/certs/comptia-server-plus.png" alt="CompTIA Server+" width="84" height="84" /></a>
-  <a href="https://www.credly.com/badges/d01b6e9a-1b71-4d7e-82fb-d5eecdec7d8f"><img src="./img/certs/isc2-cc.png" alt="ISC2 Certified in Cybersecurity" width="84" height="84" /></a>
   <a href="https://www.credly.com/badges/c62cfb62-847b-4794-96c2-6ce6ebf41293"><img src="./img/certs/comptia-a-plus.png" alt="CompTIA A+" width="84" height="84" /></a>
+  <a href="https://www.credly.com/badges/1f7ea311-0c34-4d04-8ae3-d52537a2b9a1"><img src="./img/certs/comptia-network-plus.png" alt="CompTIA Network+" width="84" height="84" /></a>
+  <a href="https://www.credly.com/badges/75587b8c-296b-4657-a670-0b156d7b1335"><img src="./img/certs/comptia-security-plus.png" alt="CompTIA Security+" width="84" height="84" /></a>
+  <a href="https://www.credly.com/badges/80014155-511f-489c-b198-35a5a22f366a"><img src="./img/certs/comptia-server-plus.png" alt="CompTIA Server+" width="84" height="84" /></a>
   <a href="https://www.credly.com/badges/1342ed76-5215-4ffb-a063-465643214f75"><img src="./img/certs/lpi-linux-essentials.png" alt="LPI LE-1 Linux Essentials" width="84" height="84" /></a>
-  <a href="https://www.credly.com/badges/760bc602-5eee-45e6-a81b-640e6312c304"><img src="./img/certs/fortinet-fca.png" alt="Fortinet Certified Associate" width="84" height="84" /></a>
+  <a href="https://www.credly.com/badges/00631828-5110-4370-8d1b-544d2425c59b"><img src="./img/certs/comptia-cios-v2.png" alt="CompTIA IT Operations Specialist (CIOS)" width="84" height="84" /></a>
+  <a href="https://www.credly.com/badges/72a74eae-a918-4f69-90fd-9814e7e671a9"><img src="./img/certs/comptia-cnip-v2.png" alt="CompTIA Network Infrastructure Professional (CNIP)" width="84" height="84" /></a>
+  <a href="https://www.credly.com/badges/576e2618-449b-426f-9234-99a578fb7599"><img src="./img/certs/comptia-csis-v2.png" alt="CompTIA Secure Infrastructure Specialist (CSIS)" width="84" height="84" /></a>
 </p>
 
-<p align="center"><a href="https://www.credly.com/users/arlington-trenck">Verify all seven on Credly</a></p>
+<p align="center">CompTIA A+, Network+, Security+, Server+, LPI Linux Essentials, and three CompTIA stackable certifications.<br><a href="https://www.credly.com/users/arlington-trenck">Verify all eight on Credly</a></p>
