@@ -7,26 +7,63 @@
   <a href="https://www.linkedin.com/in/arlytrenck">LinkedIn</a> &nbsp;·&nbsp;
   <a href="https://www.credly.com/users/arlington-trenck">Credly</a> &nbsp;·&nbsp;
   <a href="mailto:arly@trenck.net">arly@trenck.net</a>
-</p>
 
 I'm an IT systems engineer in Fairfield, CT. By day I run infrastructure
-for a 29-office brokerage across three states. By night I turn what that
-teaches me into public tools. Every repo below started as a script I wrote
-twice, then generalized.
+for a 29-office brokerage across three states. By night I build in the
+open, and right now that mostly means **homi**.
 
-## Projects
+## Featured: homi
+
+<a href="https://github.com/arlytrenck/homi">
+  <img src="https://raw.githubusercontent.com/arlytrenck/homi/main/docs/brand/homi-banner.png" alt="homi: a dashboard for your homelab" width="100%" />
+</a>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=flat-square" alt="Next.js" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white&style=flat-square" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square" alt="Docker" />
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT license" />
+  <img src="https://img.shields.io/badge/release-v0.1.0-blue?style=flat-square" alt="v0.1.0" />
+</p>
+
+**[homi](https://github.com/arlytrenck/homi) is a self-hostable homelab
+dashboard.** A fast launcher for your services, with live health checks and
+uptime history, in one container with one SQLite file and no external
+database.
+
+| | |
+| --- | --- |
+| **Live status** | HTTP, TCP, and ping checks with up / degraded / down states, live updates, and 24h to 90d uptime history |
+| **Ops view** | A dense, worst-first table with a kiosk mode for a wall display |
+| **Integrations** | Proxmox, Docker, Pi-hole, AdGuard Home, UniFi, Synology, TrueNAS, the \*arr apps, Authentik, Uptime Kuma, Grafana, and a plugin API |
+| **Docker auto-discovery** | Label a container with `homi.enable=true` and it appears with its own health check |
+| **Secure by default** | argon2id passwords, hashed server-side sessions, CSRF checks, login rate limiting, SSRF-guarded outbound requests, AES-256-GCM for stored secrets |
+| **Portable** | Multi-arch image (amd64 and arm64), YAML export and import, installable PWA manifest |
+
+```sh
+mkdir homi && cd homi
+curl -O https://raw.githubusercontent.com/arlytrenck/homi/main/docker-compose.yml
+docker compose up -d        # then open http://localhost:3000
+```
+
+Honest status: v0.1.0 is out, and the integrations are tested against mock
+servers, not yet live instances. [Roadmap](https://github.com/arlytrenck/homi/blob/main/docs/roadmap.md)
+&nbsp;·&nbsp; [Docker labels](https://github.com/arlytrenck/homi/blob/main/docs/docker-labels.md)
+
+## More projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### [sysadmin-linux](https://github.com/arlytrenck/sysadmin-linux)
-![Shell](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=flat-square)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=flat-square)
 ![ShellCheck](https://img.shields.io/badge/CI-ShellCheck-informational?style=flat-square)
 
 **39 scripts** and runbooks for Linux hosts. Verified backups, container
-audits, SSH key and TLS expiry checks, patch wrappers, and runbooks for a
-full disk, a leaked secret, and a failed patch.
+audits, SSH key and TLS expiry checks, and runbooks for a full disk, a
+leaked secret, and a failed patch.
 
 </td>
 <td width="50%" valign="top">
@@ -36,8 +73,8 @@ full disk, a leaked secret, and a failed patch.
 ![PSScriptAnalyzer](https://img.shields.io/badge/CI-PSScriptAnalyzer-informational?style=flat-square)
 
 **27 scripts** for Windows Server. Diffable config snapshots including
-Hyper-V, local admin and scheduled-task audits, Defender status, patching.
-Everything that changes state supports `-WhatIf`.
+Hyper-V, local admin and scheduled-task audits, Defender status, and
+`-WhatIf` on anything that changes state.
 
 </td>
 </tr>
@@ -45,65 +82,39 @@ Everything that changes state supports `-WhatIf`.
 <td width="50%" valign="top">
 
 ### [sysadmin-macos](https://github.com/arlytrenck/sysadmin-macos)
-![Shell](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=flat-square)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=flat-square)
 ![ShellCheck](https://img.shields.io/badge/CI-ShellCheck-informational?style=flat-square)
 
-**18 scripts** for macOS. SIP, Gatekeeper and FileVault audits, listening
-port allowlists, Time Machine verification, and launchd, APFS, and
-unified-logging cheatsheets.
+**18 scripts** for macOS. SIP, Gatekeeper, and FileVault audits, listening
+port allowlists, Time Machine verification, and launchd and APFS notes.
 
 </td>
-<td width="50%" valign="top">
-
-### [arly-skill](https://github.com/arlytrenck/arly-skill)
-![Agent skill](https://img.shields.io/badge/Agent_skill-7A5C12?style=flat-square)
-
-My playbook as an installable agent skill. Describe a situation and it
-returns the runbook that fits and the script that does the work. Built only
-from my public tools and writing.
-
-```sh
-npx skills add arlytrenck/arly-skill -g
-```
-
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [homelab-public](https://github.com/arlytrenck/homelab-public)
 ![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?logo=docker&logoColor=white&style=flat-square)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white&style=flat-square)
 
-The Compose infrastructure behind my homelab, with identifying details
-redacted. Hardening conventions, a getting-started guide, a
-lessons-learned file of real mistakes, and **44 Prometheus alert rules**
-published unedited.
+The Compose infrastructure behind my homelab, identifying details
+redacted. Hardening conventions, a lessons-learned file of real mistakes,
+and **44 Prometheus alert rules** published unedited.
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td colspan="2" valign="top">
 
-### [homi](https://github.com/arlytrenck/homi)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
-![Release](https://img.shields.io/badge/release-v0.1.0-blue?style=flat-square)
+### [arly-skill](https://github.com/arlytrenck/arly-skill)
+![Agent skill](https://img.shields.io/badge/Agent_skill-7A5C12?style=flat-square)
 
-A self-hostable homelab dashboard. Service launcher, HTTP, TCP, and ping
-health checks, uptime history, Docker auto-discovery, and a plugin API.
-One container, one SQLite file. Integrations are tested against mock
-servers, not yet live instances.
+My playbook as an installable agent skill: describe a situation and it
+returns the runbook that fits and the script that does the work. Built only
+from my public tools and writing. Install with
+`npx skills add arlytrenck/arly-skill -g`.
 
 </td>
 </tr>
 </table>
-
-## How they fit together
-
-The three sysadmin toolkits cover Linux, Windows Server, and macOS the same
-way, one linter per repo. `arly-skill` indexes them, along with my runbooks
-and writing, so an agent can point at the right script. `homelab-public`
-shows the same habits applied to a personal stack, and `homi` is the
-dashboard I built for that kind of stack.
 
 ## Homelab in one paragraph
 
