@@ -1,19 +1,33 @@
 ![Arly Trenck, IT Systems Engineer & Infrastructure Architect](./img/banners/github-banner.png)
 
-# Arly Trenck
+<p align="center">
+  <a href="https://trenck.net">Website</a> &nbsp;·&nbsp;
+  <a href="https://trenck.net/blog/">Blog</a> &nbsp;·&nbsp;
+  <a href="https://trenck.net/resume/">Résumé</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/arlytrenck">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://www.credly.com/users/arlington-trenck">Credly</a> &nbsp;·&nbsp;
+  <a href="mailto:arly@trenck.net">arly@trenck.net</a>
+</p>
+
+## Hi, I'm Arly
 
 IT systems engineer and infrastructure architect in Fairfield, CT. I run
 infrastructure operations for a 29-office residential real-estate brokerage
-across Connecticut, New York, and Massachusetts: servers, firewalls, wireless,
-identity, and automation. Single sign-on covers 1,250+ users across Microsoft
-Entra ID, Okta, and Google Workspace, and an MFA rollout is under way.
+across Connecticut, New York, and Massachusetts: servers, firewalls,
+wireless, identity, and automation.
 
-Every office runs one standard, so a fix that works at one site applies to the
-other 28. Recurring work gets scripted instead of repeated. Completed work
-includes a firewall refresh across all 29 offices with no unplanned
-business-hours downtime, 52 access points moved to RUCKUS One cloud management,
-and a scripted Windows 11 in-place upgrade across 160 endpoints ahead of end of
-support.
+Every office runs one standard, so a fix that works at one site applies to
+the other 28. Recurring work gets scripted instead of repeated.
+
+## At a glance
+
+| | |
+| --- | --- |
+| **29** offices | One standard build across CT, NY, and MA |
+| **1,250+** users | Single sign-on across Entra ID, Okta, and Google Workspace; MFA rollout under way |
+| **29** firewalls | Refreshed at every office with no unplanned business-hours downtime |
+| **52** access points | Moved to RUCKUS One cloud management |
+| **160** endpoints | Scripted Windows 11 in-place upgrade ahead of end of support |
 
 ## What I run
 
@@ -21,60 +35,44 @@ support.
 | --- | --- |
 | Systems | Windows Server 2019 / 2022 / 2025, Active Directory & Group Policy, Ubuntu Server LTS, Proxmox VE, VMware, Synology DSM |
 | Identity | Microsoft 365, Entra ID, MFA, Okta Workforce Identity, SAML SSO, Google Workspace, RBAC & least privilege |
-| Network & security | SonicWall firewalls (SonicOS), RUCKUS One, VLANs & subnetting, IPsec & WireGuard VPN, DNS / DHCP, Cisco OpenDNS (Umbrella), Huntress EDR |
+| Network & security | SonicWall (SonicOS), RUCKUS One, VLANs & subnetting, IPsec & WireGuard VPN, DNS / DHCP, Cisco OpenDNS (Umbrella), Huntress EDR |
 | Automation | PowerShell, Bash, Ansible, Git, Renovate, NinjaOne, ImmyBot, Liongard, IT Glue, Auvik, Freshservice |
 | Backup & recovery | Axcient, Spanning Backup, restic, disaster-recovery planning & restore testing |
 
 ## Projects
 
-**[arly-skill](https://github.com/arlytrenck/arly-skill)** takes a situation and
-returns the runbook that fits it, names the script that does the work, and
-carries my published guidance. It encodes my playbook as an installable agent
-skill, built from the public tools and writing below.
-
-**[sysadmin-linux](https://github.com/arlytrenck/sysadmin-linux)** is a Bash
-toolkit for Linux host operations: verified backups, container-host drift and
-security audits, TLS certificate expiry checks, and runbooks for a full disk, a
-leaked secret, and a failed patch. ShellCheck runs in CI.
-
-**[sysadmin-windows](https://github.com/arlytrenck/sysadmin-windows)** is a
-PowerShell toolkit for Windows Server: diffable config snapshots including
-Hyper-V hosts, account and security audits, patching, and reporting.
-PSScriptAnalyzer runs in CI. A third companion,
-[sysadmin-macos](https://github.com/arlytrenck/sysadmin-macos), covers macOS
-the same way, with ShellCheck in CI.
-
-**[homelab-public](https://github.com/arlytrenck/homelab-public)** is the Docker
-Compose infrastructure behind the homelab on my site, with identifying details
-redacted. The hardening conventions and 44 Prometheus alerting rules are
-published unedited. The runbook, the per-device config, and the remaining rules
-stay private.
-
-**[homi](https://github.com/arlytrenck/homi)** is a self-hostable homelab
-dashboard that I develop: a service launcher with HTTP, TCP, and ping health
-checks, uptime history, and Docker auto-discovery. Integrations cover Proxmox,
-UniFi, Synology, and the *arr apps, among others, and a plugin API handles the
-rest. It runs as one container with one SQLite file, built with Next.js and
-TypeScript under the MIT license. v0.1.0 is out; the integrations are tested
-against mock servers, not yet live instances.
+| Project | What it is |
+| --- | --- |
+| [**arly-skill**](https://github.com/arlytrenck/arly-skill) | Takes a situation, returns the runbook that fits, and names the script that does the work. My playbook as an installable agent skill. |
+| [**sysadmin-linux**](https://github.com/arlytrenck/sysadmin-linux) | Bash toolkit for Linux hosts: verified backups, container-host drift and security audits, TLS expiry checks, and runbooks. ShellCheck in CI. |
+| [**sysadmin-windows**](https://github.com/arlytrenck/sysadmin-windows) | PowerShell toolkit for Windows Server: diffable config snapshots including Hyper-V, account and security audits, patching, reporting. PSScriptAnalyzer in CI. |
+| [**sysadmin-macos**](https://github.com/arlytrenck/sysadmin-macos) | The same approach for macOS, with ShellCheck in CI. |
+| [**homelab-public**](https://github.com/arlytrenck/homelab-public) | Docker Compose infrastructure behind my homelab, identifying details redacted. Hardening conventions and 44 Prometheus alerting rules published unedited. |
+| [**homi**](https://github.com/arlytrenck/homi) | Self-hostable homelab dashboard: service launcher, HTTP / TCP / ping health checks, uptime history, Docker auto-discovery, and a plugin API. One container, one SQLite file. Next.js and TypeScript, MIT. v0.1.0 is out; integrations are tested against mock servers, not yet live instances. |
 
 ## Homelab
 
-Cloudflare answers DNS for every subdomain, and the home network opens only
-ports 80 and 443. Caddy terminates TLS with certificates issued over DNS-01,
-Authelia puts single sign-on and two-factor in front of everything private, and
-the request reaches one of 54 containers running as Docker Compose stacks on a
-16 vCPU Ubuntu LTS VM under Proxmox VE 9. Remote access runs over a Tailscale
-subnet router, so no admin interface needs a public port.
+```text
+Cloudflare DNS ─► ports 80/443 ─► Caddy (TLS, DNS-01) ─► Authelia (SSO + 2FA)
+                                                          └─► 54 containers
+                                      Docker Compose on a 16 vCPU Ubuntu VM
+                                      under Proxmox VE 9 on ZFS
+```
 
-Every container is defined in a version-controlled Compose stack. 71 Prometheus
-rules run through Alertmanager and page Gotify on my phone. Five independent
-copies, with a restore drill every month that reports pass or fail. The host
-rebuilds from one Ansible playbook.
+- **Exposure:** the home network opens only ports 80 and 443. Remote access
+  runs over a Tailscale subnet router, so no admin interface needs a public
+  port.
+- **Everything as code:** every container is a version-controlled Compose
+  stack, and the host rebuilds from one Ansible playbook.
+- **Monitoring:** 71 Prometheus rules run through Alertmanager and page
+  Gotify on my phone.
+- **Backups:** five independent copies, with a monthly restore drill that
+  reports pass or fail.
+- **Hardware:** Lenovo ThinkSystem SR650, two Synology NAS units, a UniFi
+  Dream Machine SE gateway and switch with a U7 Pro access point, and a
+  CyberPower UPS watched by NUT for clean shutdown.
 
-The hardware is a Lenovo ThinkSystem SR650 running Proxmox VE 9 on ZFS, two
-Synology NAS units, a UniFi Dream Machine SE gateway and switch with a UniFi U7
-Pro access point, and a CyberPower UPS watched by NUT for clean shutdown. [Architecture and rack layout](https://trenck.net/homelab/).
+[Architecture and rack layout](https://trenck.net/homelab/)
 
 ## Certifications
 
@@ -89,10 +87,3 @@ Pro access point, and a CyberPower UPS watched by NUT for clean shutdown. [Archi
 </p>
 
 <p align="center"><a href="https://www.credly.com/users/arlington-trenck">Verify all seven on Credly</a></p>
-
-🌐 [trenck.net](https://trenck.net) &nbsp;·&nbsp;
-📝 [Blog](https://trenck.net/blog/) &nbsp;·&nbsp;
-📄 [Résumé](https://trenck.net/resume/) &nbsp;·&nbsp;
-💼 [LinkedIn](https://www.linkedin.com/in/arlytrenck) &nbsp;·&nbsp;
-🏅 [Credly](https://www.credly.com/users/arlington-trenck) &nbsp;·&nbsp;
-✉️ [arly@trenck.net](mailto:arly@trenck.net)
