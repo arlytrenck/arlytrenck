@@ -109,6 +109,19 @@ from my public tools and writing. Install with
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+### [comicrack-ce-docker](https://github.com/arlytrenck/comicrack-ce-docker)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
+![Wine](https://img.shields.io/badge/Wine-722F37?logo=wine&logoColor=white&style=flat-square)
+
+A container for ComicRack Community Edition, a Windows app with no upstream
+image. It runs under Wine and is served in the browser through KasmVNC.
+Image at `ghcr.io/arlytrenck/comicrack-ce`.
+
+</td>
+</tr>
 </table>
 
 ## Homelab in one paragraph
