@@ -116,8 +116,8 @@ from my public tools and writing. Install with
 Cloudflare answers DNS and only ports 80 and 443 reach the house. Caddy
 terminates TLS, Authelia puts SSO and two-factor in front of everything
 private, and requests land on one of 54 Docker Compose containers on a
-Proxmox VE 9 host. Tailscale handles remote admin, 71 Prometheus rules page
-my phone through Gotify, and the whole host rebuilds from one Ansible
+Proxmox VE 9 host. Tailscale handles remote admin, 72 Prometheus rules page
+my phone through ntfy, and the whole host rebuilds from one Ansible
 playbook. Five independent backup copies get a monthly restore drill.
 [Architecture and rack layout](https://trenck.net/homelab/).
 
