@@ -48,12 +48,14 @@ redacted. The hardening conventions and 44 Prometheus alerting rules are
 published unedited. The runbook, the per-device config, and the remaining rules
 stay private.
 
-**[homi](https://github.com/arlytrenck/homi)** is a read-only dashboard for
-the homelab, and I develop it. A collector is any executable that prints one JSON
-object to stdout, so a collector can be a four-line shell script and nobody has to
-read any Go to add support for their own gear. It cannot change anything on the
-network: no restart, no exec, no stop. Still under development, with no release
-yet.
+**[sysadmin-macos](https://github.com/arlytrenck/sysadmin-macos)** is a
+ShellCheck-linted collection of macOS administration scripts, runbooks, and
+reference docs from homelab and small-fleet operations.
+
+**[homi](https://github.com/arlytrenck/homi)** is a self-hostable homelab
+dashboard that I develop: a service launcher with live HTTP, TCP, and ping
+health checks, uptime history, an ops view, and Docker auto-discovery. One
+container, one SQLite file, MIT licensed. v0.1.0 is out.
 
 ## Homelab
 
@@ -64,8 +66,8 @@ the request reaches one of 54 containers running as Docker Compose stacks on a
 16 vCPU Ubuntu LTS VM under Proxmox VE 9. Remote access runs over a Tailscale
 subnet router, so no admin interface needs a public port.
 
-Every container is defined in a version-controlled Compose stack. 71 Prometheus
-rules run through Alertmanager and page Gotify on my phone. Five independent
+Every container is defined in a version-controlled Compose stack. 72 Prometheus
+rules run through Alertmanager and page ntfy on my phone. Five independent
 copies, with a restore drill every month that reports pass or fail. The host
 rebuilds from one Ansible playbook.
 
