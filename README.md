@@ -122,6 +122,20 @@ Image at `ghcr.io/arlytrenck/comicrack-ce`.
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+### [emby-cleanup-candidates](https://github.com/arlytrenck/emby-cleanup-candidates)
+![C#](https://img.shields.io/badge/C%23-512BD4?logo=dotnet&logoColor=white&style=flat-square)
+![Emby](https://img.shields.io/badge/Emby-52B54B?logo=emby&logoColor=white&style=flat-square)
+
+An Emby Server plugin that finds media nobody has watched in two years,
+shows how much space it takes, and can delete it. It reads play history
+for every user and listed 1,631 folders (8.3 TB) on a 4,300-title library.
+Purge is dry run by default and needs a typed confirmation to delete.
+
+</td>
+</tr>
 </table>
 
 ## Homelab in one paragraph
