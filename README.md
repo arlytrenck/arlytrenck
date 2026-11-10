@@ -1,3 +1,5 @@
+<img src="./img/banners/github-banner.svg" alt="Arly Trenck, IT Operations Manager. Do it once by hand. Every time after, script it." width="100%" />
+
 <p align="center">
   <a href="https://trenck.net">Website</a> &nbsp;·&nbsp;
   <a href="https://trenck.net/blog/">Blog</a> &nbsp;·&nbsp;
@@ -7,9 +9,11 @@
   <a href="mailto:arly@trenck.net">arly@trenck.net</a>
 </p>
 
-I'm an IT systems engineer in Fairfield, CT. By day I run infrastructure
-for a 29-office brokerage across three states. By night I build in the
-open, and right now that mostly means **homi**.
+I lead IT for a 29-office real-estate brokerage with 1,250+ people across
+Connecticut, New York, and Massachusetts. My team runs support,
+infrastructure, and security; I set the standards, manage the vendors, and
+automate the repeatable work. I'm based in Fairfield, CT, and I build in the
+open. Right now that mostly means **homi**.
 
 ## Featured: homi
 
@@ -18,12 +22,12 @@ open, and right now that mostly means **homi**.
 </a>
 
 <p align="center">
+  <a href="https://github.com/arlytrenck/homi/releases/latest"><img src="https://img.shields.io/github/v/release/arlytrenck/homi?style=flat-square&color=blue" alt="Latest release" /></a>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=flat-square" alt="Next.js" />
   <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white&style=flat-square" alt="SQLite" />
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square" alt="Docker" />
   <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT license" />
-  <img src="https://img.shields.io/badge/release-v0.1.0-blue?style=flat-square" alt="v0.1.0" />
 </p>
 
 **[homi](https://github.com/arlytrenck/homi) is a self-hostable homelab
@@ -97,7 +101,7 @@ and **44 Prometheus alert rules** published unedited.
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### [arly-skill](https://github.com/arlytrenck/arly-skill)
 ![Agent skill](https://img.shields.io/badge/Agent_skill-7A5C12?style=flat-square)
@@ -108,9 +112,7 @@ from my public tools and writing. Install with
 `npx skills add arlytrenck/arly-skill -g`.
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### [comicrack-ce-docker](https://github.com/arlytrenck/comicrack-ce-docker)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
@@ -138,37 +140,53 @@ Purge is dry run by default and needs a typed confirmation to delete.
 </tr>
 </table>
 
-## Homelab in one paragraph
+## Homelab
 
-Cloudflare answers DNS and only ports 80 and 443 reach the house. Caddy
-terminates TLS, Authelia puts SSO and two-factor in front of everything
-private, and requests land on one of 54 Docker Compose containers on a
-Proxmox VE 9 host. Tailscale handles remote admin, 72 Prometheus rules page
-my phone through ntfy, and the whole host rebuilds from one Ansible
-playbook. Five independent backup copies get a monthly restore drill.
-[Architecture and rack layout](https://trenck.net/homelab/).
+I test tools and configurations here before they go near work. Everything
+is in git, and one Ansible playbook rebuilds the host from scratch.
+
+| | |
+| --- | --- |
+| **Edge** | Cloudflare answers DNS. Ports 80 and 443 are the only ones open; Caddy terminates TLS and CrowdSec blocks bad actors at the proxy |
+| **Identity** | Authelia single sign-on and two-factor in front of everything private |
+| **Services** | 55 Docker Compose containers on one Ubuntu VM under Proxmox VE |
+| **Network** | A UniFi Dream Machine SE routes five VLANs; a Tailscale subnet router handles remote admin, so no admin interface needs a public port |
+| **Monitoring** | 71 Prometheus alert rules, plus Loki, routed through Alertmanager to my phone |
+| **Recovery** | Nightly encrypted dumps, restic, a second-NAS mirror, weekly VM snapshots, and a restore drill every month |
+
+[Architecture, rack layout, and field notes](https://trenck.net/homelab/).
+
+## Day job
+
+IT Operations Manager at a 29-office residential real-estate brokerage in
+CT, NY, and MA since November 2026, after three years in support and a year
+running its servers, network, and identity. Every office runs one standard,
+so a fix at one site applies to the other 28.
+
+- **Support** cut from about 150 to about 70 tickets a week through better process and user training.
+- **Onboarding** cut from about 60 to about 30 minutes with a PowerShell account lifecycle.
+- **Windows 11** deployed by script to 160 endpoints ahead of the October 2025 end of Windows 10 support.
+- **Firewall refresh** across all 29 offices with no unplanned business-hours downtime, and 52 access points moved to RUCKUS One.
+- **Internet circuits** renewed at 8 offices in 2026 for faster speeds at lower cost.
+- **Identity** for 1,250+ users across Entra ID, Okta, and Google Workspace, with an MFA rollout under way.
 
 <details>
-<summary><b>Day job and stack</b></summary>
+<summary><b>Stack</b></summary>
 
 <br>
 
-At a 29-office residential real-estate brokerage in CT, NY, and MA, every
-office runs one standard, so a fix at one site applies to the other 28.
-Single sign-on covers 1,250+ users across Entra ID, Okta, and Google
-Workspace, with an MFA rollout under way. Completed work includes a
-firewall refresh across all 29 offices, 52 access points moved to RUCKUS
-One, and a scripted Windows 11 upgrade across 160 endpoints.
-
 | Area | Stack |
 | --- | --- |
+| Leadership | IT team leadership, vendor and MSP management, IT budget planning, Freshservice ITSM |
 | Systems | Windows Server 2019 / 2022 / 2025, Active Directory & Group Policy, Ubuntu Server LTS, Proxmox VE, VMware, Synology DSM |
 | Identity | Microsoft 365, Entra ID, MFA, Okta Workforce Identity, SAML SSO, Google Workspace |
 | Network & security | SonicWall, RUCKUS One, VLANs, IPsec & WireGuard VPN, DNS / DHCP, Cisco OpenDNS, Huntress EDR |
-| Automation | PowerShell, Bash, Ansible, Git, Renovate, NinjaOne, ImmyBot, Liongard, IT Glue, Auvik, Freshservice |
+| Automation | PowerShell, Bash, Ansible, Git, Renovate, NinjaOne, ImmyBot, Liongard, IT Glue, Auvik |
 | Backup & recovery | Axcient, Spanning Backup, restic, restore testing |
 
 </details>
+
+Case studies for each of these are on [trenck.net/work](https://trenck.net/work/).
 
 ## Certifications
 
