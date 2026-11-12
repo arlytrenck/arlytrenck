@@ -1,5 +1,3 @@
-<img src="./img/banners/github-banner.svg" alt="Arly Trenck, IT Operations Manager. Do it once by hand. Every time after, script it." width="100%" />
-
 <p align="center">
   <a href="https://trenck.net">Website</a> &nbsp;·&nbsp;
   <a href="https://trenck.net/blog/">Blog</a> &nbsp;·&nbsp;
